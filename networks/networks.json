@@ -1,0 +1,63 @@
+[
+    {
+        "isTestnet": false,
+        "networkId": 100,
+        "chainId": 100,
+        "name": "xdai-mainnet",
+        "shortName": "xdai",
+        "nativeTokenSymbol": "xDAI",
+        "contractsV1": {
+            "resolver": "0xD2009765189164b495c110D61e4D301729079911",
+            "host": "0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7",
+            "governance": "",
+            "cfaV1": "0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D",
+            "idaV1": "0x7888ac96F987Eb10E291F34851ae0266eF912081",
+            "superTokenFactory": "0x23410e2659380784498509698ed70E414D384880",
+            "superfluidLoader": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
+            "toga": "0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22",
+            "batchLiquidator": ""
+        },
+        "startBlockV1": 14820000,
+        "logsQueryRange": 20000
+    },
+    {
+        "isTestnet": true,
+        "networkId": 5,
+        "chainId": 5,
+        "name": "eth-kovan",
+        "shortName": "kovan",
+        "nativeTokenSymbol": "kETH",
+        "contractsV1": {
+            "resolver": "0x851d3dd9dc97c1df1DA73467449B3893fc76D85B",
+            "host": "0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3",
+            "governance": "",
+            "cfaV1": "0xECa8056809e7e8db04A8fF6e4E82cD889a46FE2F",
+            "idaV1": "0x556ba0b3296027Dd7BCEb603aE53dEc3Ac283d2b",
+            "superTokenFactory": "0xF5F666AC8F581bAef8dC36C7C8828303Bd4F8561",
+            "superfluidLoader": "0x9F73208FAFf97465CEC27fd93F10EB3D78289339"
+        },
+        "startBlockV1": 23080000,
+        "logsQueryRange": 10000
+    },
+    {
+        "isTestnet": true,
+        "networkId": 5,
+        "chainId": 5,
+        "name": "placeholder",
+        "shortName": "",
+        "nativeTokenSymbol": "",
+        "contractsV1": {
+            "resolver": "",
+            "host": "",
+            "governance": "",
+            "cfaV1": "",
+            "idaV1": "",
+            "superTokenFactory": "",
+            "superfluidLoader": "",
+            "toga": "",
+            "batchLiquidator": ""
+        },
+        "startBlockV1": 0,
+        "logsQueryRange": 10000
+    },
+]
