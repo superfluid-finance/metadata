@@ -1,0 +1,265 @@
+[
+    {
+        "name": "eth-ropsten",
+        "isTestnet": true,
+        "networkId": 3,
+        "chainId": 3,
+        "shortName": "ropsten",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x3b44e06D96BcA9412CBc23F80F41B9e30933571a",
+            "host": "0xF2B4E81ba39F5215Db2e05B2F66f482BB8e87FD2",
+            "governance": "0x9439e90f15461cb9e1a05692370ec71b49e6c98d ",
+            "cfaV1": "0xaD2F1f7cd663f6a15742675f975CcBD42bb23a88",
+            "idaV1": "0xAD1e87F0C74341ecAFc1d27349dD6e650f5bAdD7",
+            "superTokenFactory": "0x6FA165d10b907592779301C23C8Ac9d1F79ca930",
+            "superfluidLoader": "0x23e9A1D629AC39e60c60C7592EB12fB8247Bd52A"
+        },
+        "explorer": "https://ropsten.etherscan.io",
+        "subgraphV1": {
+            "name": "ropsten"
+        }
+    },
+    {
+        "name": "eth-kovan",
+        "isTestnet": true,
+        "networkId": 5,
+        "chainId": 5,
+        "shortName": "kovan",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x851d3dd9dc97c1df1DA73467449B3893fc76D85B",
+            "host": "0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3",
+            "governance": "0x32c95d72bbf861dc4893c169f585d33a297ace58 ",
+            "cfaV1": "0xECa8056809e7e8db04A8fF6e4E82cD889a46FE2F",
+            "idaV1": "0x556ba0b3296027Dd7BCEb603aE53dEc3Ac283d2b",
+            "superTokenFactory": "0xF5F666AC8F581bAef8dC36C7C8828303Bd4F8561",
+            "superfluidLoader": "0x9F73208FAFf97465CEC27fd93F10EB3D78289339"
+        },
+        "startBlockV1": 23080000,
+        "logsQueryRange": 10000,
+        "explorer": "https://kovan.etherscan.io",
+        "subgraphV1": {
+            "name": "kovan"
+        }
+    },
+    {
+        "name": "eth-goerli",
+        "isTestnet": true,
+        "networkId": 5,
+        "chainId": 5,
+        "shortName": "goerli",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x3710AB3fDE2B61736B8BB0CE845D6c61F667a78E",
+            "host": "0x22ff293e14F1EC3A09B137e9e06084AFd63adDF9",
+            "governance": "0x3a648764a6d66440ca096343937c711a7ac1b1e9",
+            "cfaV1": "0xEd6BcbF6907D4feEEe8a8875543249bEa9D308E8",
+            "idaV1": "0xfDdcdac21D64B639546f3Ce2868C7EF06036990c",
+            "superTokenFactory": "0x94f26B4c8AD12B18c12f38E878618f7664bdcCE2",
+            "superfluidLoader": "0x74d860243Ff08A243d5485899f343117EbDa6eA8",
+            "toga": "0xa54FC15FC75693447d70a57262F37a70B614721b"
+        },
+        "startBlockV1": 0,
+        "logsQueryRange": 1,
+        "explorer": "https://goerli.etherscan.io",
+        "subgraphV1": {
+            "name": "goerli"
+        }
+    },
+    {
+        "name": "polygon-mumbai",
+        "isTestnet": true,
+        "networkId": 80001,
+        "chainId": 80001,
+        "shortName": "mumbai",
+        "nativeTokenSymbol": "MATIC",
+        "contractsV1": {
+            "resolver": "0x8C54C83FbDe3C59e59dd6E324531FB93d4F504d3",
+            "host": "0xEB796bdb90fFA0f28255275e16936D25d3418603",
+            "governance": "0x2637eA93EE5cd887ff9AC98185eA67Bd70C5f62e",
+            "cfaV1": "0x49e565Ed1bdc17F3d220f72DF0857C26FA83F873",
+            "idaV1": "0x804348D4960a61f2d5F9ce9103027A3E849E09b8",
+            "superTokenFactory": "0x200657E2f123761662567A1744f9ACAe50dF47E6",
+            "superfluidLoader": "0x0d56ED56b63382B0FC964490feB9AE438B6B4b79"
+        },
+        "explorer": "https://mumbai.polygonscan.com",
+        "subgraphV1": {
+            "name": "mumbai"
+        }
+    },
+    {
+        "name": "optimism-kovan",
+        "isTestnet": true,
+        "networkId": 69,
+        "chainId": 69,
+        "shortName": "opkovan",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x218B65780615Ff134f9Ad810CB98839534D3C0D6",
+            "host": "0x74b57883f8ce9F2BD330286E884CfD8BB24AC4ED",
+            "governance": "0xaCedc4C2aC1965F2eC3473f4486a59fB286BfFE0",
+            "cfaV1": "0x523481a8a5455efB1F301C6e00B5525Eb12a51da",
+            "idaV1": "0x98E5E5d915Bf79ceeF02c72D1bf8f5b26f0bcBaA",
+            "superTokenFactory": "0xB5f0501908ca8A99fD31bEFCAc1cA458F3588671",
+            "superfluidLoader": "0x777Be25F9fdcA87e8a0E06Ad4be93d65429FCb9f"
+        },
+        "startBlockV1": 300000,
+        "logsQueryRange": 50000,
+        "explorer": "https://kovan-optimistic.etherscan.io"
+    },
+    {
+        "name": "arbitrum-rinkeby",
+        "isTestnet": true,
+        "networkId": 421611,
+        "chainId": 421611,
+        "shortName": "arbrinkeby",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0xa2C0C70A1E922f5f060ec20EE3aF002C163b4567",
+            "host": "0xE01F8743677Da897F4e7De9073b57Bf034FC2433",
+            "governance": "0xDF874BA132D8C68FEb5De513790f7612Fe20dDbd",
+            "cfaV1": "0xcA0569223e56B479FaC6d554FA0D3867A4384657",
+            "idaV1": "0x038405394F2B791F71c2C68d36dc91C568DfAB05",
+            "superTokenFactory": "0xc11eC618c1d559705E853741e366663Fe9302362",
+            "superfluidLoader": "0x777Be25F9fdcA87e8a0E06Ad4be93d65429FCb9f"
+        },
+        "startBlockV1": 7300000,
+        "logsQueryRange": 50000
+    },
+    {
+        "name": "avalanche-fuji",
+        "isTestnet": true,
+        "networkId": 43113,
+        "chainId": 43113,
+        "shortName": "fuji",
+        "nativeTokenSymbol": "AVAX",
+        "contractsV1": {
+            "resolver": "0x141920741bC45b962B59c833cd849bA617F7ef38",
+            "host": "0xf04F2C525819691ed9ABD3D2B7109E1633795e68",
+            "governance": "0xe4bbA294E0F7C4a83a105F7fe2CeCf4D7Bd8B3c0",
+            "cfaV1": "0xED74d30B8034152b0638CB03cc5c3c906dd1c482",
+            "idaV1": "0x997d745884F54a93E6662b055c5e6c09F688718b",
+            "superTokenFactory": "0xA25dbEa94C5824892006b30a629213E7Bf238624",
+            "superfluidLoader": "0x777Be25F9fdcA87e8a0E06Ad4be93d65429FCb9f"
+        },
+        "startBlockV1": 3220000,
+        "logsQueryRange": 50000,
+        "explorer": "https://testnet.snowtrace.io"
+    },
+
+
+   
+    {
+        "name": "xdai-mainnet",
+        "isTestnet": false,
+        "networkId": 100,
+        "chainId": 100,
+        "shortName": "xdai",
+        "nativeTokenSymbol": "xDAI",
+        "contractsV1": {
+            "resolver": "0xD2009765189164b495c110D61e4D301729079911",
+            "host": "0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7",
+            "governance": "0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478",
+            "cfaV1": "0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D",
+            "idaV1": "0x7888ac96F987Eb10E291F34851ae0266eF912081",
+            "superTokenFactory": "0x23410e2659380784498509698ed70E414D384880",
+            "superfluidLoader": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
+            "toga": "0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22",
+            "batchLiquidator": ""
+        },
+        "startBlockV1": 14820000,
+        "logsQueryRange": 20000,
+        "explorer": "https://blockscout.com/xdai/mainnet",
+        "subgraphV1": {
+            "name": "xdai"
+        }
+    },
+    {
+        "name": "polygon-mainnet",
+        "isTestnet": false,
+        "networkId": 137,
+        "chainId": 137,
+        "shortName": "matic",
+        "nativeTokenSymbol": "MATIC",
+        "contractsV1": {
+            "resolver": "0xE0cc76334405EE8b39213E620587d815967af39C",
+            "host": "0x3E14dC1b13c488a8d5D310918780c983bD5982E7",
+            "governance": "0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087",
+            "cfaV1": "0x6EeE6060f715257b970700bc2656De21dEdF074C",
+            "idaV1": "0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1",
+            "superTokenFactory": "0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34",
+            "superfluidLoader": "0x15F0Ca26781C3852f8166eD2ebce5D18265cceb7",
+            "toga": "0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7"
+        },
+        "startBlockV1": 10000000,
+        "logsQueryRange": 10000,
+        "explorer": "https://polygonscan.com",
+        "subgraphV1": {
+            "name": "matic"
+        }
+    },
+    {
+        "name": "optimism-mainnet",
+        "isTestnet": false,
+        "networkId": 10,
+        "chainId": 10,
+        "shortName": "optimism",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x743B5f46BC86caF41bE4956d9275721E0531B186",
+            "host": "0x567c4B141ED61923967cA25Ef4906C8781069a10",
+            "governance": "0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D",
+            "cfaV1": "0x204C6f131bb7F258b2Ea1593f5309911d8E458eD",
+            "idaV1": "0xc4ce5118C3B20950ee288f086cb7FC166d222D4c",
+            "superTokenFactory": "0x8276469A443D5C6B7146BED45e2abCaD3B6adad9",
+            "superfluidLoader": "0x8E310ce29Ab7Fa2878944A65BB0eaF97B1853d40",
+            "toga": "0xA3c8502187fD7a7118eAD59dc811281448946C8f"
+        },
+        "startBlockV1": 4300000,
+        "logsQueryRange": 50000,
+        "explorer": "https://optimistic.etherscan.io"
+    },
+    {
+        "name": "arbitrum-one",
+        "isTestnet": false,
+        "networkId": 42161,
+        "chainId": 42161,
+        "shortName": "arbone",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x609b9d9d6Ee9C3200745A79B9d3398DBd63d509F",
+            "host": "0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192",
+            "governance": "0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D",
+            "cfaV1": "0x731FdBB12944973B500518aea61942381d7e240D",
+            "idaV1": "0x2319C7e07EB063340D2a0E36709B0D65fda75986",
+            "superTokenFactory": "0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6",
+            "superfluidLoader": "0xB99cA401e10D277345BcFb281AC148a2e16Db466",
+            "toga": "0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF"
+        },
+        "startBlockV1": 7600000,
+        "logsQueryRange": 50000,
+        "explorer": "https://arbiscan.io"
+    },
+    {
+        "name": "avalanche-c",
+        "isTestnet": false,
+        "networkId": 43114,
+        "chainId": 43114,
+        "shortName": "avalanche",
+        "nativeTokenSymbol": "AVAX",
+        "contractsV1": {
+            "resolver": "0x24a3F04F70B7f07B9673EadD3e146391BcfEa5c1",
+            "host": "0x60377C7016E4cdB03C87EF474896C11cB560752C",
+            "governance": "0xF74390BabA510ec2fE196c2e02B037380d7a6F12",
+            "cfaV1": "0x6946c5B38Ffea373b0a2340b4AEf0De8F6782e58",
+            "idaV1": "0x1fA9fFe8Db73F701454B195151Db4Abb18423cf2",
+            "superTokenFactory": "0x464AADdBB2B80f3Cb666522EB7381bE610F638b4",
+            "superfluidLoader": "0x2601E69a2D16C8Ccc8aEe8cE9F59d24a59986B9E",
+            "toga": "0x3D9A67D5ec1E72CEcA8157e028855056786b6159"
+        },
+        "startBlockV1": 14700000,
+        "logsQueryRange": 50000,
+        "explorer": "https://snowtrace.io"
+    }
+]

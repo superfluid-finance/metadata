@@ -1,0 +1,16 @@
+{
+  "name": "superfluid-metadata",
+  "version": "1.0.0",
+  "description": "Superfluid Metadata",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfluid-finance/metadata.git"
+  },
+  "author": "Superfluid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superfluid-finance/metadata/issues"
+  },
+  "homepage": "https://github.com/superfluid-finance/metadata#readme"
+}
