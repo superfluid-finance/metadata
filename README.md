@@ -46,7 +46,6 @@ Example use:
   startBlockV1: 4300000,
   logsQueryRange: 50000,
   explorer: 'https://optimistic.etherscan.io',
-  httpProviderUrl: 'http://optimism-mainnet.web3-infra.superfluid.dev',
   subgraphV1: {
     name: 'protocol-v1-optimism-mainnet',
     hostedEndpoint: 'https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-mainnet'
