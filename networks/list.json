@@ -5,6 +5,7 @@
         "networkId": 3,
         "chainId": 3,
         "shortName": "ropsten",
+        "uppercaseName": "ETH_ROPSTEN",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x3b44e06D96BcA9412CBc23F80F41B9e30933571a",
@@ -29,6 +30,7 @@
         "networkId": 5,
         "chainId": 5,
         "shortName": "kovan",
+        "uppercaseName": "ETH_KOVAN",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x851d3dd9dc97c1df1DA73467449B3893fc76D85B",
@@ -53,6 +55,7 @@
         "networkId": 5,
         "chainId": 5,
         "shortName": "goerli",
+        "uppercaseName": "ETH_GOERLI",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x3710AB3fDE2B61736B8BB0CE845D6c61F667a78E",
@@ -78,6 +81,7 @@
         "networkId": 80001,
         "chainId": 80001,
         "shortName": "mumbai",
+        "uppercaseName": "POLYGON_MUMBAI",
         "nativeTokenSymbol": "MATIC",
         "contractsV1": {
             "resolver": "0x8C54C83FbDe3C59e59dd6E324531FB93d4F504d3",
@@ -102,6 +106,7 @@
         "networkId": 69,
         "chainId": 69,
         "shortName": "opkovan",
+        "uppercaseName": "OPTIMISM_KOVAN",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x218B65780615Ff134f9Ad810CB98839534D3C0D6",
@@ -126,6 +131,7 @@
         "networkId": 421611,
         "chainId": 421611,
         "shortName": "arbrinkeby",
+        "uppercaseName": "ARBITRUM_RINKEBY",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0xa2C0C70A1E922f5f060ec20EE3aF002C163b4567",
@@ -150,6 +156,7 @@
         "networkId": 43113,
         "chainId": 43113,
         "shortName": "fuji",
+        "uppercaseName": "AVALANCHE_FUJI",
         "nativeTokenSymbol": "AVAX",
         "contractsV1": {
             "resolver": "0x141920741bC45b962B59c833cd849bA617F7ef38",
@@ -177,6 +184,7 @@
         "networkId": 100,
         "chainId": 100,
         "shortName": "xdai",
+        "uppercaseName": "XDAI_MAINNET",
         "nativeTokenSymbol": "xDAI",
         "contractsV1": {
             "resolver": "0xD2009765189164b495c110D61e4D301729079911",
@@ -203,6 +211,7 @@
         "networkId": 137,
         "chainId": 137,
         "shortName": "matic",
+        "uppercaseName": "POLYGON_MAINNET",
         "nativeTokenSymbol": "MATIC",
         "contractsV1": {
             "resolver": "0xE0cc76334405EE8b39213E620587d815967af39C",
@@ -229,6 +238,7 @@
         "networkId": 10,
         "chainId": 10,
         "shortName": "optimism",
+        "uppercaseName": "OPTIMISM_MAINNET",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x743B5f46BC86caF41bE4956d9275721E0531B186",
@@ -255,6 +265,7 @@
         "networkId": 42161,
         "chainId": 42161,
         "shortName": "arbone",
+        "uppercaseName": "ARBITRUM_ONE",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x609b9d9d6Ee9C3200745A79B9d3398DBd63d509F",
@@ -281,6 +292,7 @@
         "networkId": 43114,
         "chainId": 43114,
         "shortName": "avalanche",
+        "uppercaseName": "AVALANCHE_C",
         "nativeTokenSymbol": "AVAX",
         "contractsV1": {
             "resolver": "0x24a3F04F70B7f07B9673EadD3e146391BcfEa5c1",
