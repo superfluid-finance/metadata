@@ -17,7 +17,7 @@
         },
         "explorer": "https://ropsten.etherscan.io",
         "subgraphV1": {
-            "name": "ropsten"
+            "name": "protocol-v1-ropsten"
         }
     },
     {
@@ -40,7 +40,7 @@
         "logsQueryRange": 10000,
         "explorer": "https://kovan.etherscan.io",
         "subgraphV1": {
-            "name": "kovan"
+            "name": "protocol-v1-kovan"
         }
     },
     {
@@ -64,7 +64,7 @@
         "logsQueryRange": 1,
         "explorer": "https://goerli.etherscan.io",
         "subgraphV1": {
-            "name": "goerli"
+            "name": "protocol-v1-goerli"
         }
     },
     {
@@ -85,7 +85,7 @@
         },
         "explorer": "https://mumbai.polygonscan.com",
         "subgraphV1": {
-            "name": "mumbai"
+            "name": "protocol-v1-mumbai"
         }
     },
     {
@@ -172,7 +172,7 @@
         "logsQueryRange": 20000,
         "explorer": "https://blockscout.com/xdai/mainnet",
         "subgraphV1": {
-            "name": "xdai"
+            "name": "protocol-v1-xdai"
         }
     },
     {
@@ -197,7 +197,7 @@
         "logsQueryRange": 10000,
         "explorer": "https://polygonscan.com",
         "subgraphV1": {
-            "name": "matic"
+            "name": "protocol-v1-matic"
         }
     },
     {
