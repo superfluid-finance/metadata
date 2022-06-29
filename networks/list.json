@@ -314,7 +314,7 @@
         }
     },
     {
-        "name": "binance",
+        "name": "binance-mainnet",
         "isTestnet": false,
         "networkId": 56,
         "chainId": 56,
