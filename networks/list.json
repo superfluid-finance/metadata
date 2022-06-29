@@ -312,5 +312,32 @@
             "name": "protocol-v1-avalanche-c",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-avalanche-c"
         }
+    },
+    {
+        "name": "binance",
+        "isTestnet": false,
+        "networkId": 56,
+        "chainId": 56,
+        "shortName": "bsc",
+        "uppercaseName": "BINANCE",
+        "nativeTokenSymbol": "BNB",
+        "contractsV1": {
+            "resolver": "0x69604aA4e9e8BF44A73C680997205Edb03A92E41",
+            "host": "0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E",
+            "governance": "0xee07D9fce4Cf2a891BC979E9d365929506C2982f",
+            "cfaV1": "0x49c38108870e74Cb9420C0991a85D3edd6363F75",
+            "idaV1": "0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d",
+            "superTokenFactory": "",
+            "superfluidLoader": "0x3C26e5bEbc68EaAf4efcd88F8E5A6Aeb77b65579",
+            "toga": "0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF",
+            "batchLiquidator": "0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3"
+        },
+        "startBlockV1": 18800000,
+        "logsQueryRange": 50000,
+        "explorer": "https://bscscan.com/",
+        "subgraphV1": {
+            "name": "protocol-v1-avalanche-c",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-bsc-mainnet"
+        }
     }
 ]
