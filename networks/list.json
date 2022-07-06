@@ -27,8 +27,8 @@
     {
         "name": "eth-kovan",
         "isTestnet": true,
-        "networkId": 5,
-        "chainId": 5,
+        "networkId": 42,
+        "chainId": 42,
         "shortName": "kovan",
         "uppercaseName": "ETH_KOVAN",
         "nativeTokenSymbol": "ETH",
