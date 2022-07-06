@@ -25,6 +25,31 @@
         }
     },
     {
+        "name": "eth-rinkeby",
+        "isTestnet": true,
+        "networkId": 4,
+        "chainId": 4,
+        "shortName": "rinkeby",
+        "uppercaseName": "ETH_RINKEBY",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x659635Fab0A0cef1293f7eb3c7934542B6A6B31A",
+            "host": "0xeD5B5b32110c3Ded02a07c8b8e97513FAfb883B6",
+            "governance": "0x05248890f7CFA11380d3B9CEb3366C560425eD91",
+            "cfaV1": "0xF4C5310E51F6079F601a5fb7120bC72a70b96e2A",
+            "idaV1": "0x32E0ecb72C1dDD92B007405F8102c1556624264D",
+            "superTokenFactory": "0xd465e36e607d493cd4CC1e83bea275712BECd5E0",
+            "superfluidLoader": "0x70A755e96d321dccd26111233a297095910784C7"
+        },
+        "startBlockV1": 7730000,
+        "logsQueryRange": 10000,
+        "explorer": "https://rinkeby.etherscan.io",
+        "subgraphV1": {
+            "name": "protocol-v1-rinkeby",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-rinkeby"
+        }
+    },
+    {
         "name": "eth-kovan",
         "isTestnet": true,
         "networkId": 42,
