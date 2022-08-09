@@ -1,79 +1,4 @@
-[
-    {
-        "name": "eth-ropsten",
-        "isTestnet": true,
-        "networkId": 3,
-        "chainId": 3,
-        "shortName": "ropsten",
-        "uppercaseName": "ETH_ROPSTEN",
-        "nativeTokenSymbol": "ETH",
-        "contractsV1": {
-            "resolver": "0x3b44e06D96BcA9412CBc23F80F41B9e30933571a",
-            "host": "0xF2B4E81ba39F5215Db2e05B2F66f482BB8e87FD2",
-            "governance": "0x9439e90f15461cb9e1a05692370ec71b49e6c98d ",
-            "cfaV1": "0xaD2F1f7cd663f6a15742675f975CcBD42bb23a88",
-            "idaV1": "0xAD1e87F0C74341ecAFc1d27349dD6e650f5bAdD7",
-            "superTokenFactory": "0x6FA165d10b907592779301C23C8Ac9d1F79ca930",
-            "superfluidLoader": "0x23e9A1D629AC39e60c60C7592EB12fB8247Bd52A"
-        },
-        "startBlockV1": 9250000,
-        "logsQueryRange": 10000,
-        "explorer": "https://ropsten.etherscan.io",
-        "subgraphV1": {
-            "name": "protocol-v1-ropsten",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-ropsten"
-        }
-    },
-    {
-        "name": "eth-rinkeby",
-        "isTestnet": true,
-        "networkId": 4,
-        "chainId": 4,
-        "shortName": "rinkeby",
-        "uppercaseName": "ETH_RINKEBY",
-        "nativeTokenSymbol": "ETH",
-        "contractsV1": {
-            "resolver": "0x659635Fab0A0cef1293f7eb3c7934542B6A6B31A",
-            "host": "0xeD5B5b32110c3Ded02a07c8b8e97513FAfb883B6",
-            "governance": "0x05248890f7CFA11380d3B9CEb3366C560425eD91",
-            "cfaV1": "0xF4C5310E51F6079F601a5fb7120bC72a70b96e2A",
-            "idaV1": "0x32E0ecb72C1dDD92B007405F8102c1556624264D",
-            "superTokenFactory": "0xd465e36e607d493cd4CC1e83bea275712BECd5E0",
-            "superfluidLoader": "0x70A755e96d321dccd26111233a297095910784C7"
-        },
-        "startBlockV1": 7730000,
-        "logsQueryRange": 10000,
-        "explorer": "https://rinkeby.etherscan.io",
-        "subgraphV1": {
-            "name": "protocol-v1-rinkeby",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-rinkeby"
-        }
-    },
-    {
-        "name": "eth-kovan",
-        "isTestnet": true,
-        "networkId": 42,
-        "chainId": 42,
-        "shortName": "kovan",
-        "uppercaseName": "ETH_KOVAN",
-        "nativeTokenSymbol": "ETH",
-        "contractsV1": {
-            "resolver": "0x851d3dd9dc97c1df1DA73467449B3893fc76D85B",
-            "host": "0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3",
-            "governance": "0x32c95d72bbf861dc4893c169f585d33a297ace58 ",
-            "cfaV1": "0xECa8056809e7e8db04A8fF6e4E82cD889a46FE2F",
-            "idaV1": "0x556ba0b3296027Dd7BCEb603aE53dEc3Ac283d2b",
-            "superTokenFactory": "0xF5F666AC8F581bAef8dC36C7C8828303Bd4F8561",
-            "superfluidLoader": "0x9F73208FAFf97465CEC27fd93F10EB3D78289339"
-        },
-        "startBlockV1": 23080000,
-        "logsQueryRange": 10000,
-        "explorer": "https://kovan.etherscan.io",
-        "subgraphV1": {
-            "name": "protocol-v1-kovan",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-kovan"
-        }
-    },
+export default [
     {
         "name": "eth-goerli",
         "isTestnet": true,
@@ -126,53 +51,53 @@
         }
     },
     {
-        "name": "optimism-kovan",
+        "name": "optimism-goerli",
         "isTestnet": true,
-        "networkId": 69,
-        "chainId": 69,
-        "shortName": "opkovan",
-        "uppercaseName": "OPTIMISM_KOVAN",
+        "networkId": 0,
+        "chainId": 0,
+        "shortName": "opgoerli",
+        "uppercaseName": "OPTIMISM_GOERLI",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
-            "resolver": "0x218B65780615Ff134f9Ad810CB98839534D3C0D6",
-            "host": "0x74b57883f8ce9F2BD330286E884CfD8BB24AC4ED",
-            "governance": "0xaCedc4C2aC1965F2eC3473f4486a59fB286BfFE0",
-            "cfaV1": "0x523481a8a5455efB1F301C6e00B5525Eb12a51da",
-            "idaV1": "0x98E5E5d915Bf79ceeF02c72D1bf8f5b26f0bcBaA",
-            "superTokenFactory": "0xB5f0501908ca8A99fD31bEFCAc1cA458F3588671",
-            "superfluidLoader": "0x777Be25F9fdcA87e8a0E06Ad4be93d65429FCb9f"
+            "resolver": "",
+            "host": "",
+            "governance": "",
+            "cfaV1": "",
+            "idaV1": "",
+            "superTokenFactory": "",
+            "superfluidLoader": ""
         },
-        "startBlockV1": 300000,
-        "logsQueryRange": 50000,
-        "explorer": "https://kovan-optimistic.etherscan.io",
+        "startBlockV1": 0,
+        "logsQueryRange": 0,
+        "explorer": "",
         "subgraphV1": {
-            "name": "protocol-v1-optimism-kovan",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-kovan"
+            "name": "protocol-v1-optimism-goerli",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-goerli"
         }
     },
     {
-        "name": "arbitrum-rinkeby",
+        "name": "arbitrum-goerli",
         "isTestnet": true,
-        "networkId": 421611,
-        "chainId": 421611,
-        "shortName": "arbrinkeby",
-        "uppercaseName": "ARBITRUM_RINKEBY",
+        "networkId": 0,
+        "chainId": 0,
+        "shortName": "arbgoerli",
+        "uppercaseName": "ARBITRUM_GOERLI",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
-            "resolver": "0xa2C0C70A1E922f5f060ec20EE3aF002C163b4567",
-            "host": "0xE01F8743677Da897F4e7De9073b57Bf034FC2433",
-            "governance": "0xDF874BA132D8C68FEb5De513790f7612Fe20dDbd",
-            "cfaV1": "0xcA0569223e56B479FaC6d554FA0D3867A4384657",
-            "idaV1": "0x038405394F2B791F71c2C68d36dc91C568DfAB05",
-            "superTokenFactory": "0xc11eC618c1d559705E853741e366663Fe9302362",
-            "superfluidLoader": "0x777Be25F9fdcA87e8a0E06Ad4be93d65429FCb9f"
+            "resolver": "",
+            "host": "",
+            "governance": "",
+            "cfaV1": "",
+            "idaV1": "",
+            "superTokenFactory": "",
+            "superfluidLoader": ""
         },
-        "startBlockV1": 7300000,
-        "logsQueryRange": 50000,
-        "explorer": "https://testnet.arbiscan.io",
+        "startBlockV1": 0,
+        "logsQueryRange": 0,
+        "explorer": "",
         "subgraphV1": {
-            "name": "protocol-v1-arbitrum-rinkeby",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-arbitrum-rinkeby"
+            "name": "protocol-v1-arbitrum-goerli",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-arbitrum-goerli"
         }
     },
     {
@@ -202,7 +127,7 @@
     },
 
 
-   
+
     {
         "name": "xdai-mainnet",
         "isTestnet": false,
