@@ -1,4 +1,4 @@
-import nl from "./list.json" assert {type: 'json'};
+import nl from "./list.js";
 
 export default {
     networks: nl,

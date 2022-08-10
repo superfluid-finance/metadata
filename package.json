@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git+https://github.com/superfluid-finance/metadata.git"
   },
+  "scripts": {
+    "build": "touch networks/list.js && echo 'export default' > networks/list.js && cat networks/list.json >> networks/list.js"
+  },
   "author": "Superfluid",
   "license": "MIT",
   "bugs": {
