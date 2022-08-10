@@ -1,4 +1,4 @@
-import nl from "./list.js";
+import nl from "./list.json";
 
 export default {
     networks: nl,
