@@ -1,11 +1,68 @@
 # Superfluid Metadata
 
-Contains metadata around the Superfluid framework.
+Contains metadata around the Superfluid framework.  
+The goal of this repository is to make it as easy as possible to reference contained metadata from various contexts (e.g. backend script or browser page) and independently of the tech stack used there. Convenience wrappers are provided for JS/TS, other environments can fall back to parsing plain JSON files.
 
 ## Networks
 
 List of EVM networks with the Superfluid protocol deployed.
-Example use in node REPL:
+Example uses
+
+### in an HTML page
+
+This example uses the jsDelivr CDN in order to always reference the latest version of the networks list.  
+You can of course also self-host a copy or use another service, anything signalling the right mime type and with a compatible CORS policy should work.
+
+```html
+<script type="module">
+  import networks from "https://cdn.jsdelivr.net/gh/superfluid-finance/metadata/networks/index.js";
+  // example use
+  const network = networks.getNetworkByChainId(networkId);
+```
+
+### in a nodejs project using ES modules
+
+Nodejs has stable support for ES modules since version 14.  
+In order to switch a project to using ES modules by default, the package.json needs to contain a field
+```json
+"type": "module"
+```
+(for other ways to enable ES modules, see [the nodejs docs](https://nodejs.org/api/esm.html#enabling))
+
+If that's the case, you can use the networks metadata like this:
+```js
+import sfMeta from "superfluid-metadata";
+
+// example use
+const network = sfMeta.getNetworkByName("eth-goerli");
+```
+
+### in a nodejs project using CommonJS (legacy)
+
+Nodejs projects still using CommonJS (if you're unsure, check [the docs](https://nodejs.org/api/packages.html#determining-module-system)), can use ES modules using the syntax of [dynamic imports](https://nodejs.org/api/esm.html#import-expressions):
+```js
+import("superfluid-metadata").then(module => {
+  const sfMeta = module;
+
+  // example use
+  const network = sfMeta.getNetworkByName("eth-goerli");
+}
+```
+
+Alternative using await:
+```js
+const sfMetaPromise = import("superfluid-metadata");
+(async () => {
+  const sfMeta = (await sfMetaPromise).default;
+
+  // example use
+  const network = sfMeta.getNetworkByName("eth-goerli");
+}
+```
+
+### in a node REPL:
+
+The repl uses CommonJS too, thus usage looks like this:
 
 ```js
 let sfMeta
