@@ -5,11 +5,10 @@ Contains metadata around the Superfluid framework.
 ## Networks
 
 List of EVM networks with the Superfluid protocol deployed.
-Example use in node REPL:
+Example use:
 
 ```js
-let sfMeta
-import("@superfluid-finance/metadata").then(module => sfMeta = module)
+> sfMeta = require(@superfluid-finance/metadata)
 > sfMeta.networks.length
 12
 > sfMeta.testnets.length
@@ -18,9 +17,11 @@ import("@superfluid-finance/metadata").then(module => sfMeta = module)
 5
 > sfMeta.mainnets.filter(n => n.nativeTokenSymbol === "ETH").map(n => n.name)
 [
+  'eth-ropsten',
+  'eth-kovan',
   'eth-goerli',
-  'optimism-goerli',
-  'arbitrum-goerli',
+  'optimism-kovan',
+  'arbitrum-rinkeby',
   'optimism-mainnet',
   'arbitrum-one'
 ]

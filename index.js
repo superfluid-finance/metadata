@@ -1,3 +1,5 @@
-import networks from "./networks/index.js";
+const networks = require("./networks/index.js");
 
-export default networks;
+module.exports = {
+    ...networks
+}
