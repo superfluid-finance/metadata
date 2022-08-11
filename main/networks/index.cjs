@@ -1,4 +1,4 @@
-const nl = require("./list.js");
+const nl = require("./list.cjs");
 
 module.exports = {
     networks: nl,
