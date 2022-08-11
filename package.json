@@ -2,14 +2,16 @@
   "name": "@superfluid-finance/metadata",
   "version": "1.1.0",
   "description": "Superfluid Metadata",
-  "main": "index.js",
+  "main": "main/index.cjs",
+  "module": "module/index.js",
   "type": "module",
+  "types": "module/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/superfluid-finance/metadata.git"
   },
   "scripts": {
-    "build": "touch networks/list.js && echo 'export default' > networks/list.js && cat networks/list.json >> networks/list.js"
+    "build": "./build.sh"
   },
   "author": "Superfluid",
   "license": "MIT",
