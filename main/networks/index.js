@@ -1,6 +1,6 @@
-import nl from "./list.js";
+const nl = require("./list.js");
 
-export default {
+module.exports = {
     networks: nl,
 
     mainnets: nl.filter(e => ! e.isTestnet),
