@@ -69,7 +69,7 @@
         },
         "startBlockV1": 340000,
         "logsQueryRange": 50000,
-        "explorer": "https://goerli-rollup-explorer.arbitrum.io",
+        "explorer": "https://blockscout.com/optimism/goerli",
         "subgraphV1": {
             "name": "protocol-v1-optimism-goerli",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-goerli"
@@ -94,7 +94,7 @@
         },
         "startBlockV1": 93000,
         "logsQueryRange": 50000,
-        "explorer": "https://goerli-rollup-explorer.arbitrum.io/",
+        "explorer": "https://goerli-rollup-explorer.arbitrum.io",
         "subgraphV1": {
             "name": "protocol-v1-arbitrum-goerli",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-arbitrum-goerli"
