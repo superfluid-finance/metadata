@@ -70,7 +70,7 @@ export default
         },
         "startBlockV1": 340000,
         "logsQueryRange": 50000,
-        "explorer": "https://goerli-rollup-explorer.arbitrum.io",
+        "explorer": "https://blockscout.com/optimism/goerli",
         "subgraphV1": {
             "name": "protocol-v1-optimism-goerli",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-goerli"
@@ -95,7 +95,7 @@ export default
         },
         "startBlockV1": 93000,
         "logsQueryRange": 50000,
-        "explorer": "https://goerli-rollup-explorer.arbitrum.io/",
+        "explorer": "https://goerli-rollup-explorer.arbitrum.io",
         "subgraphV1": {
             "name": "protocol-v1-arbitrum-goerli",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-arbitrum-goerli"
@@ -122,13 +122,10 @@ export default
         "logsQueryRange": 50000,
         "explorer": "https://testnet.snowtrace.io",
         "subgraphV1": {
-            "name": "avalanche-fuji",
+            "name": "protocol-v1-avalanche-fuji",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-avalanche-fuji"
         }
     },
-
-
-
     {
         "name": "xdai-mainnet",
         "isTestnet": false,
@@ -150,7 +147,7 @@ export default
         },
         "startBlockV1": 14820000,
         "logsQueryRange": 20000,
-        "explorer": "https://blockscout.com/xdai/mainnet",
+        "explorer": "https://gnosisscan.io",
         "subgraphV1": {
             "name": "protocol-v1-xdai",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-xdai"
@@ -285,7 +282,7 @@ export default
         },
         "startBlockV1": 18800000,
         "logsQueryRange": 5000,
-        "explorer": "https://bscscan.com/",
+        "explorer": "https://bscscan.com",
         "subgraphV1": {
             "name": "protocol-v1-bsc-mainnet",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-bsc-mainnet"
