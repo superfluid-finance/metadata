@@ -147,7 +147,7 @@ module.exports =
         },
         "startBlockV1": 14820000,
         "logsQueryRange": 20000,
-        "explorer": "https://gnosisscan.io/",
+        "explorer": "https://gnosisscan.io",
         "subgraphV1": {
             "name": "protocol-v1-xdai",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-xdai"
@@ -282,7 +282,7 @@ module.exports =
         },
         "startBlockV1": 18800000,
         "logsQueryRange": 5000,
-        "explorer": "https://bscscan.com/",
+        "explorer": "https://bscscan.com",
         "subgraphV1": {
             "name": "protocol-v1-bsc-mainnet",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-bsc-mainnet"
