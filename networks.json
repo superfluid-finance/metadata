@@ -121,13 +121,10 @@
         "logsQueryRange": 50000,
         "explorer": "https://testnet.snowtrace.io",
         "subgraphV1": {
-            "name": "avalanche-fuji",
+            "name": "protocol-v1-avalanche-fuji",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-avalanche-fuji"
         }
     },
-
-
-
     {
         "name": "xdai-mainnet",
         "isTestnet": false,
@@ -149,7 +146,7 @@
         },
         "startBlockV1": 14820000,
         "logsQueryRange": 20000,
-        "explorer": "https://blockscout.com/xdai/mainnet",
+        "explorer": "https://gnosisscan.io/",
         "subgraphV1": {
             "name": "protocol-v1-xdai",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-xdai"
