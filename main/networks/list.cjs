@@ -70,7 +70,7 @@ module.exports =
         },
         "startBlockV1": 340000,
         "logsQueryRange": 50000,
-        "explorer": "https://blockscout.com/optimism/goerli",
+        "explorer": "https://goerli-optimism.etherscan.io",
         "subgraphV1": {
             "name": "protocol-v1-optimism-goerli",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-goerli"
