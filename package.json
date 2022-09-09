@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/superfluid-finance/metadata#readme",
   "devDependencies": {
-    "@netlify/functions": "^1.2.0"
+    "@netlify/functions": "^1.2.0",
+    "netlify-cli": "^11.6.0"
   }
 }
