@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/superfluid-finance/metadata/issues"
   },
-  "homepage": "https://github.com/superfluid-finance/metadata#readme"
+  "homepage": "https://github.com/superfluid-finance/metadata#readme",
+  "devDependencies": {
+    "@netlify/functions": "^1.2.0"
+  }
 }
