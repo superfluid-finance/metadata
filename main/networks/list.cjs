@@ -13,6 +13,7 @@ module.exports =
             "host": "0x22ff293e14F1EC3A09B137e9e06084AFd63adDF9",
             "governance": "0x3a648764a6d66440ca096343937c711a7ac1b1e9",
             "cfaV1": "0xEd6BcbF6907D4feEEe8a8875543249bEa9D308E8",
+            "cfaV1Forwarder": "0xCfA1E187C9141B8bA90a436CB789017FA573d051",
             "idaV1": "0xfDdcdac21D64B639546f3Ce2868C7EF06036990c",
             "superTokenFactory": "0x94f26B4c8AD12B18c12f38E878618f7664bdcCE2",
             "superfluidLoader": "0x74d860243Ff08A243d5485899f343117EbDa6eA8",
