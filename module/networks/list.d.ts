@@ -3,6 +3,7 @@ interface ContractAddresses {
     readonly host: string;
     readonly governance: string;
     readonly cfaV1: string;
+    readonly cfaV1Forwarder: string;
     readonly idaV1: string;
     readonly superTokenFactory: string;
     readonly superfluidLoader: string;
