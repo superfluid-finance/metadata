@@ -15,7 +15,7 @@ You can of course also self-host a copy or use another service, anything signall
 
 ```html
 <script type="module">
-  import networks from "https://cdn.jsdelivr.net/gh/superfluid-finance/metadata/networks/index.js";
+  import networks from "https://cdn.jsdelivr.net/gh/superfluid-finance/metadata/module/networks/index.js";
   // example use
   const network = networks.getNetworkByChainId(networkId);
 ```
