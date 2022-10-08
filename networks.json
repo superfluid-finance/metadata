@@ -98,7 +98,7 @@
         },
         "startBlockV1": 93000,
         "logsQueryRange": 50000,
-        "explorer": "https://goerli-rollup-explorer.arbitrum.io",
+        "explorer": "https://goerli.arbiscan.io",
         "subgraphV1": {
             "name": "protocol-v1-arbitrum-goerli",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-arbitrum-goerli"
