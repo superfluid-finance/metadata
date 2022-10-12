@@ -102,7 +102,7 @@ export default
         "explorer": "https://goerli-rollup-explorer.arbitrum.io",
         "subgraphV1": {
             "name": "protocol-v1-arbitrum-goerli",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-arbitrum-goerli"
+            "hostedEndpoint": "https://subgraph.satsuma.xyz/superfluid/arbitrum-goerli/api"
         }
     },
     {
