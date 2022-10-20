@@ -156,7 +156,7 @@ export default
         "explorer": "https://gnosisscan.io",
         "subgraphV1": {
             "name": "protocol-v1-xdai",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-xdai"
+            "hostedEndpoint": "https://subgraph.satsuma.xyz/superfluid/xdai/api"
         }
     },
     {
