@@ -322,7 +322,7 @@
         "explorer": "https://etherscan.io",
         "subgraphV1": {
             "name": "protocol-v1-mainnet",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-mainnet"
+            "hostedEndpoint": ""
         }
     }
 ]
