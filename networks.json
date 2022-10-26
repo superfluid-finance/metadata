@@ -297,5 +297,32 @@
             "name": "protocol-v1-bsc-mainnet",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-bsc-mainnet"
         }
+    },
+    {
+        "name": "eth-mainnet",
+        "isTestnet": false,
+        "networkId": 1,
+        "chainId": 1,
+        "shortName": "mainnet",
+        "uppercaseName": "ETH_MAINNET",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "",
+            "host": "",
+            "governance": "",
+            "cfaV1": "",
+            "cfaV1Forwarder": "",
+            "idaV1": "",
+            "superTokenFactory": "",
+            "superfluidLoader": "",
+            "toga": ""
+        },
+        "startBlockV1": 0,
+        "logsQueryRange": 0,
+        "explorer": "https://etherscan.io",
+        "subgraphV1": {
+            "name": "protocol-v1-mainnet",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-mainnet"
+        }
     }
 ]
