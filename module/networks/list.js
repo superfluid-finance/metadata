@@ -102,7 +102,7 @@ export default
         "explorer": "https://goerli.arbiscan.io",
         "subgraphV1": {
             "name": "protocol-v1-arbitrum-goerli",
-            "hostedEndpoint": "https://subgraph.satsuma.xyz/superfluid/arbitrum-goerli/api"
+            "hostedEndpoint": "https://subgraph.satsuma-prod.com/superfluid/arbitrum-goerli/api"
         }
     },
     {
@@ -156,7 +156,7 @@ export default
         "explorer": "https://gnosisscan.io",
         "subgraphV1": {
             "name": "protocol-v1-xdai",
-            "hostedEndpoint": "https://subgraph.satsuma.xyz/superfluid/xdai/api"
+            "hostedEndpoint": "https://subgraph.satsuma-prod.com/superfluid/xdai/api"
         }
     },
     {
