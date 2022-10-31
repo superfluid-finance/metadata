@@ -31,7 +31,7 @@ In order to switch a project to using ES modules by default, the package.json ne
 
 If that's the case, you can use the networks metadata like this:
 ```js
-import sfMeta from "superfluid-metadata";
+import sfMeta from "@superfluid-finance/metadata";
 
 // example use
 const network = sfMeta.getNetworkByName("eth-goerli");
@@ -41,7 +41,7 @@ const network = sfMeta.getNetworkByName("eth-goerli");
 
 Nodejs projects still using CommonJS (if you're unsure, check [the docs](https://nodejs.org/api/packages.html#determining-module-system)), can use ES modules using the syntax of [dynamic imports](https://nodejs.org/api/esm.html#import-expressions):
 ```js
-import("superfluid-metadata").then(module => {
+import("@superfluid-finance/metadata").then(module => {
   const sfMeta = module;
 
   // example use
@@ -51,7 +51,7 @@ import("superfluid-metadata").then(module => {
 
 Alternative using await:
 ```js
-const sfMetaPromise = import("superfluid-metadata");
+const sfMetaPromise = import("@superfluid-finance/metadata");
 (async () => {
   const sfMeta = (await sfMetaPromise).default;
 
