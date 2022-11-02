@@ -309,7 +309,7 @@
         "contractsV1": {
             "resolver": "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53",
             "host": "0x4E583d9390082B65Bef884b629DFA426114CED6d",
-            "governance": "",
+            "governance": "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653",
             "cfaV1": "0x2844c1BBdA121E9E43105630b9C8310e5c72744b",
             "cfaV1Forwarder": "",
             "idaV1": "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d",
