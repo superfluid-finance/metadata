@@ -323,7 +323,7 @@ export default
         "explorer": "https://etherscan.io",
         "subgraphV1": {
             "name": "protocol-v1-eth-mainnet",
-            "hostedEndpoint": "https://subgraph.satsuma.xyz/superfluid/eth-mainnet/api"
+            "hostedEndpoint": "https://subgraph.satsuma-prod.com/superfluid/eth-mainnet/api"
         }
     }
 ]
