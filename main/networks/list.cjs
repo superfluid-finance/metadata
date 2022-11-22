@@ -177,7 +177,7 @@ module.exports =
             "superTokenFactory": "0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34",
             "superfluidLoader": "0x15F0Ca26781C3852f8166eD2ebce5D18265cceb7",
             "toga": "0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7",
-            "batchLiquidator": "0xE6E151C28F6EC8DD696637ac2bf5d24adB527566"
+            "batchLiquidator": "0xAB4075f621100563f4551C0Ca50944809b03E948"
         },
         "startBlockV1": 10000000,
         "logsQueryRange": 10000,
