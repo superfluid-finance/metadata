@@ -17,7 +17,11 @@ module.exports =
             "idaV1": "0xfDdcdac21D64B639546f3Ce2868C7EF06036990c",
             "superTokenFactory": "0x94f26B4c8AD12B18c12f38E878618f7664bdcCE2",
             "superfluidLoader": "0x74d860243Ff08A243d5485899f343117EbDa6eA8",
-            "toga": "0xa54FC15FC75693447d70a57262F37a70B614721b"
+            "toga": "0xa54FC15FC75693447d70a57262F37a70B614721b",
+            "wrapManager": "0x0B82D14E9616ca4d260E77454834AdCf5887595F",
+            "wrapStrategy": "0xea49af829d3e28d3ec49e0e0a0ba1e7860a56f60",
+            "flowScheduler": "0xA6134E107FCAEAab6140CB8fb92Dbf5bd9EF6C86",
+            "vestingScheduler": "0xb61f8A2CbBd1be5FE437509b51dc2B9BA710c47b"
         },
         "startBlockV1": 3550000,
         "logsQueryRange": 10000,
@@ -43,7 +47,11 @@ module.exports =
             "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
             "idaV1": "0x804348D4960a61f2d5F9ce9103027A3E849E09b8",
             "superTokenFactory": "0x200657E2f123761662567A1744f9ACAe50dF47E6",
-            "superfluidLoader": "0x0d56ED56b63382B0FC964490feB9AE438B6B4b79"
+            "superfluidLoader": "0x0d56ED56b63382B0FC964490feB9AE438B6B4b79",
+            "wrapManager": "0x3eAB3c6207F488E475b7955B631B564F0E6317B9",
+            "wrapStrategy": "0x544728AFDBeEafBeC9e1329031788edb53017bC4",
+            "flowScheduler": "0xF18825d412C061aEfEFB4dF46a1c077636dA50bf",
+            "vestingScheduler": "0xD4fCe2a08fd2fA7495BEd900F2fb6c6deDBf8632"
         },
         "startBlockV1": 8100000,
         "logsQueryRange": 10000,
@@ -177,7 +185,11 @@ module.exports =
             "superTokenFactory": "0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34",
             "superfluidLoader": "0x15F0Ca26781C3852f8166eD2ebce5D18265cceb7",
             "toga": "0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7",
-            "batchLiquidator": "0xAB4075f621100563f4551C0Ca50944809b03E948"
+            "batchLiquidator": "0xE6E151C28F6EC8DD696637ac2bf5d24adB527566",
+            "wrapManager": "0x2581c27E7f6D6AF452E63fCe884EDE3EDd716b32",
+            "wrapStrategy": "0xb4afa36BAd8c76976Dc77a21c9Ad711EF720eE4b",
+            "flowScheduler": "0x47D34512492D95A3531A628e5B85e32fAFaC1b42",
+            "vestingScheduler": "0xF9B3b4c23d08ebcBb8A70F5C7471E3Edd3ddF210"
         },
         "startBlockV1": 10000000,
         "logsQueryRange": 10000,
@@ -289,7 +301,11 @@ module.exports =
             "superTokenFactory": "0x8bde47397301F0Cd31b9000032fD517a39c946Eb",
             "superfluidLoader": "0x3C26e5bEbc68EaAf4efcd88F8E5A6Aeb77b65579",
             "toga": "0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF",
-            "batchLiquidator": "0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3"
+            "batchLiquidator": "0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3",
+            "wrapManager": "0x2AcdD61ac1EFFe1535109449c31889bdE8d7f325",
+            "wrapStrategy": "0x9e308cb079ae130790F604b1030cDf386670f199",
+            "flowScheduler": "0x1D65c6d3AD39d454Ea8F682c49aE7744706eA96d",
+            "vestingScheduler": "0x4f268bfB109439D7c23A903c237cdBEbd7E987a1"
         },
         "startBlockV1": 18800000,
         "logsQueryRange": 5000,
