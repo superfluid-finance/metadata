@@ -8,6 +8,10 @@ interface ContractAddresses {
     readonly superTokenFactory: string;
     readonly superfluidLoader: string;
     readonly toga: string;
+    readonly wrapManager: string;
+    readonly wrapStrategy: string;
+    readonly flowScheduler: string;
+    readonly vestingScheduler: string;
 }
 interface SubgraphData {
     readonly name: string;
