@@ -312,7 +312,7 @@ module.exports =
             "host": "0x4E583d9390082B65Bef884b629DFA426114CED6d",
             "governance": "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653",
             "cfaV1": "0x2844c1BBdA121E9E43105630b9C8310e5c72744b",
-            "cfaV1Forwarder": "",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
             "idaV1": "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d",
             "superTokenFactory": "0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1",
             "superfluidLoader": "0x9775EEBdfF8AE845e7Ad3d1D04B85e6c6d284aCB",

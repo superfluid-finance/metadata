@@ -3,6 +3,11 @@
 Contains metadata around the Superfluid framework.  
 The goal of this repository is to make it as easy as possible to reference contained metadata from various contexts (e.g. backend script or browser page) and independently of the tech stack used there. Convenience wrappers are provided for JS/TS, other environments can fall back to parsing plain JSON files.
 
+## Making Changes
+
+When adding new changes (new addresses), add it to `networks.json` and make sure to run `./build.sh` before pushing so that both the list files in `main` and `module` are updated.
+If you are adding a new property, please also modify the .d.ts files in the module folder accordingly as well.
+
 ## Networks
 
 List of EVM networks with the Superfluid protocol deployed.
