@@ -176,7 +176,7 @@
             "superTokenFactory": "0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34",
             "superfluidLoader": "0x15F0Ca26781C3852f8166eD2ebce5D18265cceb7",
             "toga": "0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7",
-            "batchLiquidator": "0xE6E151C28F6EC8DD696637ac2bf5d24adB527566"
+            "batchLiquidator": "0xAB4075f621100563f4551C0Ca50944809b03E948"
         },
         "startBlockV1": 10000000,
         "logsQueryRange": 10000,
@@ -311,7 +311,7 @@
             "host": "0x4E583d9390082B65Bef884b629DFA426114CED6d",
             "governance": "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653",
             "cfaV1": "0x2844c1BBdA121E9E43105630b9C8310e5c72744b",
-            "cfaV1Forwarder": "",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
             "idaV1": "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d",
             "superTokenFactory": "0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1",
             "superfluidLoader": "0x9775EEBdfF8AE845e7Ad3d1D04B85e6c6d284aCB",
