@@ -1,0 +1,14 @@
+name: CI | Check build.sh output against committed files
+
+on:
+  pull_request:
+    
+jobs:
+  check-build-sh-output:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check committed files against built files
+        run: ./compare-committed-against-build.sh
+          
