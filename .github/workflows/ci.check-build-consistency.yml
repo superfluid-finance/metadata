@@ -11,8 +11,12 @@ jobs:
       
       - name: Check committed files against built files
         run: |
-          main_list_committed_hash=`echo hashFiles('./main/networks/list.cjs')`
-          module_list_committed_hash=`echo hashFiles('./module/networks/list.js')`
+          function hashFiles() {
+            sha256sum $1 | cut -d ' ' -f 1
+          }
+
+          main_list_committed_hash=$(sha256sum ./main/networks/list.cjs)
+          module_list_committed_hash=$(sha256sum ./module/networks/list.js)
           
           ./build.sh
           
