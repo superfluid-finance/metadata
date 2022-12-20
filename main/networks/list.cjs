@@ -102,7 +102,7 @@ module.exports =
         "explorer": "https://goerli.arbiscan.io",
         "subgraphV1": {
             "name": "protocol-v1-arbitrum-goerli",
-            "hostedEndpoint": "https://subgraph.satsuma-prod.com/superfluid/arbitrum-goerli/api"
+            "hostedEndpoint": "https://subgraph.satsuma-prod.com/c5br3jaVlJI6/superfluid/arbitrum-goerli/api"
         }
     },
     {
@@ -156,7 +156,7 @@ module.exports =
         "explorer": "https://gnosisscan.io",
         "subgraphV1": {
             "name": "protocol-v1-xdai",
-            "hostedEndpoint": "https://subgraph.satsuma-prod.com/superfluid/xdai/api"
+            "hostedEndpoint": "https://subgraph.satsuma-prod.com/c5br3jaVlJI6/superfluid/xdai/api"
         }
     },
     {
@@ -324,7 +324,7 @@ module.exports =
         "explorer": "https://etherscan.io",
         "subgraphV1": {
             "name": "protocol-v1-eth-mainnet",
-            "hostedEndpoint": "https://subgraph.satsuma-prod.com/superfluid/eth-mainnet/api"
+            "hostedEndpoint": "https://subgraph.satsuma-prod.com/c5br3jaVlJI6/superfluid/eth-mainnet/api"
         }
     }
 ]
