@@ -1,0 +1,26 @@
+name: CI | Check build.sh output against committed files
+
+on:
+  pull_request:
+    
+jobs:
+  check-build-sh-output:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check committed files against built files
+        run: |
+          main-list-committed-hash=`echo hashfiles(./main/networks/list.cjs)`
+          module-list-committed-hash=`echo hashfiles(./module/networks/list.js)`
+          
+          ./build.sh
+          
+          main-list-built-hash=`echo hashfiles(./main/networks/list.cjs)`
+          module-list-built-hash=`echo hashfiles(./module/networks/list.js)`
+
+          if [ "$main-list-committed-hash" != "$main-list-built-hash" || "$module-list-committed-hash" != "$module-list-built-hash" ]; then
+            echo "The built files are not consistent with the committed files. Please run ./build.sh and commit the changes."
+            exit 1
+          fi
+          
