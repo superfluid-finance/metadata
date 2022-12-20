@@ -11,13 +11,13 @@ jobs:
       
       - name: Check committed files against built files
         run: |
-          main-list-committed-hash=`echo hashfiles('./main/networks/list.cjs')`
-          module-list-committed-hash=`echo hashfiles('./module/networks/list.js')`
+          main_list_committed_hash=`echo hashfiles('./main/networks/list.cjs')`
+          module_list_committed_hash=`echo hashfiles('./module/networks/list.js')`
           
           ./build.sh
           
-          main-list-built-hash=`echo hashfiles('./main/networks/list.cjs')`
-          module-list-built-hash=`echo hashfiles('./module/networks/list.js')`
+          main_list_built_hash=`echo hashfiles('./main/networks/list.cjs')`
+          module_list_built_hash=`echo hashfiles('./module/networks/list.js')`
 
           if [ "$main-list-committed-hash" != "$main-list-built-hash" || "$module-list-committed-hash" != "$module-list-built-hash" ]; then
             echo "The built files are not consistent with the committed files. Please run ./build.sh and commit the changes."
