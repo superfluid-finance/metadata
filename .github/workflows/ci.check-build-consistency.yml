@@ -10,21 +10,5 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: Check committed files against built files
-        run: |
-          function hashFiles() {
-            sha256sum $1 | cut -d ' ' -f 1
-          }
-
-          main_list_committed_hash=$(sha256sum ./main/networks/list.cjs)
-          module_list_committed_hash=$(sha256sum ./module/networks/list.js)
-          
-          ./build.sh
-          
-          main_list_built_hash=$('./main/networks/list.cjs')
-          module_list_built_hash=$('./module/networks/list.js')
-
-          if [ "$main-list-committed-hash" != "$main-list-built-hash" || "$module-list-committed-hash" != "$module-list-built-hash" ]; then
-            echo "The built files are not consistent with the committed files. Please run ./build.sh and commit the changes."
-            exit 1
-          fi
+        run: ./compare-committed-against-build.sh
           
