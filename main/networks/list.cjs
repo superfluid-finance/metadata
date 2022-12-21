@@ -25,7 +25,11 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-goerli",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-goerli"
-        }
+        },
+        "publicRPCs": [
+            "https://rpc.ankr.com/eth_goerli",
+            "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+        ]
     },
     {
         "name": "polygon-mumbai",
@@ -51,7 +55,11 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-mumbai",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-mumbai"
-        }
+        },
+        "publicRPCs": [
+            "https://rpc.ankr.com/polygon_mumbai",
+            "https://matic-mumbai.chainstacklabs.com"
+        ]
     },
     {
         "name": "optimism-goerli",
@@ -157,7 +165,12 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-xdai",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-xdai"
-        }
+        },
+        "publicRPCs": [
+            "https://rpc.gnosischain.com",
+            "https://gnosischain-rpc.gateway.pokt.network"
+        ],
+        "coinGeckoId": "xdai"
     },
     {
         "name": "polygon-mainnet",
@@ -185,7 +198,12 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-matic",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-matic"
-        }
+        },
+        "publicRPCs": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network"
+        ],
+        "coinGeckoId": "polygon-pos"
     },
     {
         "name": "optimism-mainnet",
@@ -213,7 +231,9 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-optimism-mainnet",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-mainnet"
-        }
+        },
+        "publicRPCs": [],
+        "coinGeckoId": "optimistic-ethereum"
     },
     {
         "name": "arbitrum-one",
@@ -241,7 +261,9 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-arbitrum-one",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-arbitrum-one"
-        }
+        },
+        "publicRPCs": [],
+        "coinGeckoId": "arbitrum-one"
     },
     {
         "name": "avalanche-c",
@@ -269,7 +291,9 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-avalanche-c",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-avalanche-c"
-        }
+        },
+        "publicRPCs": [],
+        "coinGeckoId": "avalanche"
     },
     {
         "name": "bsc-mainnet",
@@ -297,7 +321,12 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-bsc-mainnet",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-bsc-mainnet"
-        }
+        },
+        "publicRPCs": [
+            "https://bscrpc.com",
+            "https://bsc-dataseed.binance.org"
+        ],
+        "coinGeckoId": "binance-smart-chain"
     },
     {
         "name": "eth-mainnet",
@@ -325,6 +354,10 @@ module.exports =
         "subgraphV1": {
             "name": "protocol-v1-eth-mainnet",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-eth-mainnet"
-        }
+        },
+        "publicRPCs": [
+            "https://eth-rpc.gateway.pokt.network"
+        ],
+        "coinGeckoId": "ethereum"
     }
 ]
