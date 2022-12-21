@@ -7,6 +7,7 @@ module.exports =
         "chainId": 5,
         "shortName": "goerli",
         "uppercaseName": "ETH_GOERLI",
+        "humanReadableName": "Goerli",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x3710AB3fDE2B61736B8BB0CE845D6c61F667a78E",
@@ -38,6 +39,7 @@ module.exports =
         "chainId": 80001,
         "shortName": "mumbai",
         "uppercaseName": "POLYGON_MUMBAI",
+        "humanReadableName": "Polygon Mumbai",
         "nativeTokenSymbol": "MATIC",
         "contractsV1": {
             "resolver": "0x8C54C83FbDe3C59e59dd6E324531FB93d4F504d3",
@@ -68,6 +70,7 @@ module.exports =
         "chainId": 420,
         "shortName": "opgoerli",
         "uppercaseName": "OPTIMISM_GOERLI",
+        "humanReadableName": "Optimism Goerli",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
@@ -94,6 +97,7 @@ module.exports =
         "chainId": 421613,
         "shortName": "arbgoerli",
         "uppercaseName": "ARBITRUM_GOERLI",
+        "humanReadableName": "Arbitrum Goerli",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
@@ -120,6 +124,7 @@ module.exports =
         "chainId": 43113,
         "shortName": "fuji",
         "uppercaseName": "AVALANCHE_FUJI",
+        "humanReadableName": "Avalanche Fuji",
         "nativeTokenSymbol": "AVAX",
         "contractsV1": {
             "resolver": "0x141920741bC45b962B59c833cd849bA617F7ef38",
@@ -146,6 +151,7 @@ module.exports =
         "chainId": 100,
         "shortName": "xdai",
         "uppercaseName": "XDAI_MAINNET",
+        "humanReadableName": "Gnosis Chain",
         "nativeTokenSymbol": "xDAI",
         "contractsV1": {
             "resolver": "0xD2009765189164b495c110D61e4D301729079911",
@@ -179,6 +185,7 @@ module.exports =
         "chainId": 137,
         "shortName": "matic",
         "uppercaseName": "POLYGON_MAINNET",
+        "humanReadableName": "Polygon",
         "nativeTokenSymbol": "MATIC",
         "contractsV1": {
             "resolver": "0xE0cc76334405EE8b39213E620587d815967af39C",
@@ -212,6 +219,7 @@ module.exports =
         "chainId": 10,
         "shortName": "optimism",
         "uppercaseName": "OPTIMISM_MAINNET",
+        "humanReadableName": "Optimism",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x743B5f46BC86caF41bE4956d9275721E0531B186",
@@ -242,6 +250,7 @@ module.exports =
         "chainId": 42161,
         "shortName": "arbone",
         "uppercaseName": "ARBITRUM_ONE",
+        "humanReadableName": "Arbitrum One",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0x609b9d9d6Ee9C3200745A79B9d3398DBd63d509F",
@@ -272,6 +281,7 @@ module.exports =
         "chainId": 43114,
         "shortName": "avalanche",
         "uppercaseName": "AVALANCHE_C",
+        "humanReadableName": "Avalanche C",
         "nativeTokenSymbol": "AVAX",
         "contractsV1": {
             "resolver": "0x24a3F04F70B7f07B9673EadD3e146391BcfEa5c1",
@@ -302,6 +312,7 @@ module.exports =
         "chainId": 56,
         "shortName": "bsc",
         "uppercaseName": "BSC_MAINNET",
+        "humanReadableName": "BNB Smart Chain",
         "nativeTokenSymbol": "BNB",
         "contractsV1": {
             "resolver": "0x69604aA4e9e8BF44A73C680997205Edb03A92E41",
@@ -335,6 +346,7 @@ module.exports =
         "chainId": 1,
         "shortName": "mainnet",
         "uppercaseName": "ETH_MAINNET",
+        "humanReadableName": "Ethereum",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53",
