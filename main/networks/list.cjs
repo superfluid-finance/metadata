@@ -145,6 +145,39 @@ module.exports =
         }
     },
     {
+        "name": "eth-mainnet",
+        "isTestnet": false,
+        "networkId": 1,
+        "chainId": 1,
+        "shortName": "mainnet",
+        "uppercaseName": "ETH_MAINNET",
+        "humanReadableName": "Ethereum",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53",
+            "host": "0x4E583d9390082B65Bef884b629DFA426114CED6d",
+            "governance": "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653",
+            "cfaV1": "0x2844c1BBdA121E9E43105630b9C8310e5c72744b",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
+            "idaV1": "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d",
+            "superTokenFactory": "0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1",
+            "superfluidLoader": "0x9775EEBdfF8AE845e7Ad3d1D04B85e6c6d284aCB",
+            "toga": "0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc",
+            "batchLiquidator": "0x24849C01F16DE01061D2eEA1678082d44D9a7F80"
+        },
+        "startBlockV1": 15870000,
+        "logsQueryRange": 10000,
+        "explorer": "https://etherscan.io",
+        "subgraphV1": {
+            "name": "protocol-v1-eth-mainnet",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-eth-mainnet"
+        },
+        "publicRPCs": [
+            "https://eth-rpc.gateway.pokt.network"
+        ],
+        "coinGeckoId": "ethereum"
+    },
+    {
         "name": "xdai-mainnet",
         "isTestnet": false,
         "networkId": 100,
@@ -338,38 +371,5 @@ module.exports =
             "https://bsc-dataseed.binance.org"
         ],
         "coinGeckoId": "binance-smart-chain"
-    },
-    {
-        "name": "eth-mainnet",
-        "isTestnet": false,
-        "networkId": 1,
-        "chainId": 1,
-        "shortName": "mainnet",
-        "uppercaseName": "ETH_MAINNET",
-        "humanReadableName": "Ethereum",
-        "nativeTokenSymbol": "ETH",
-        "contractsV1": {
-            "resolver": "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53",
-            "host": "0x4E583d9390082B65Bef884b629DFA426114CED6d",
-            "governance": "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653",
-            "cfaV1": "0x2844c1BBdA121E9E43105630b9C8310e5c72744b",
-            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
-            "idaV1": "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d",
-            "superTokenFactory": "0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1",
-            "superfluidLoader": "0x9775EEBdfF8AE845e7Ad3d1D04B85e6c6d284aCB",
-            "toga": "0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc",
-            "batchLiquidator": "0x24849C01F16DE01061D2eEA1678082d44D9a7F80"
-        },
-        "startBlockV1": 15870000,
-        "logsQueryRange": 10000,
-        "explorer": "https://etherscan.io",
-        "subgraphV1": {
-            "name": "protocol-v1-eth-mainnet",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-eth-mainnet"
-        },
-        "publicRPCs": [
-            "https://eth-rpc.gateway.pokt.network"
-        ],
-        "coinGeckoId": "ethereum"
     }
 ]
