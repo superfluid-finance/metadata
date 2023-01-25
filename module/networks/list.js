@@ -359,9 +359,7 @@ export default
             "superTokenFactory": "0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9",
             "superfluidLoader": "0xAd6e6849d8eEa62AF9271808afb726610fB451a6",
             "toga": "0x9bCa3a623e7b2e248510d88B2894F54898d88F91",
-            "batchLiquidator": "0x24849C01F16DE01061D2eEA1678082d44D9a7F80",
-            "flowScheduler": "",
-            "vestingScheduler": ""
+            "batchLiquidator": "0x24849C01F16DE01061D2eEA1678082d44D9a7F80"
         },
         "startBlockV1": 16393000,
         "logsQueryRange": 20000,
