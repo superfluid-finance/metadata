@@ -340,5 +340,33 @@ export default
             "name": "protocol-v1-eth-mainnet",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-eth-mainnet"
         }
+    },
+    {
+        "name": "celo-mainnet",
+        "isTestnet": false,
+        "networkId": 42220,
+        "chainId": 42220,
+        "shortName": "celo",
+        "uppercaseName": "CELO_MAINNET",
+        "nativeTokenSymbol": "CELO",
+        "contractsV1": {
+            "resolver": "0x05eE721BD4D803d6d477Aa7607395452B65373FF",
+            "host": "0xA4Ff07cF81C02CFD356184879D953970cA957585",
+            "governance": "0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D",
+            "cfaV1": "0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
+            "idaV1": "0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA",
+            "superTokenFactory": "0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9",
+            "superfluidLoader": "0xAd6e6849d8eEa62AF9271808afb726610fB451a6",
+            "toga": "0x9bCa3a623e7b2e248510d88B2894F54898d88F91",
+            "batchLiquidator": "0x24849C01F16DE01061D2eEA1678082d44D9a7F80"
+        },
+        "startBlockV1": 16393000,
+        "logsQueryRange": 20000,
+        "explorer": "https://celoscan.io",
+        "subgraphV1": {
+            "name": "protocol-v1-celo-mainnet",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-celo-mainnet"
+        }
     }
 ]
