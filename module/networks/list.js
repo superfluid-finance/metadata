@@ -367,6 +367,7 @@ export default
         "chainId": 1,
         "shortName": "mainnet",
         "uppercaseName": "ETH_MAINNET",
+        "humanReadableName": "Ethereum",
         "nativeTokenSymbol": "ETH",
         "contractsV1": {
             "resolver": "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53",
@@ -402,6 +403,7 @@ export default
         "chainId": 42220,
         "shortName": "celo",
         "uppercaseName": "CELO_MAINNET",
+        "humanReadableName": "Celo",
         "nativeTokenSymbol": "CELO",
         "contractsV1": {
             "resolver": "0x05eE721BD4D803d6d477Aa7607395452B65373FF",
