@@ -145,39 +145,6 @@ export default
         }
     },
     {
-        "name": "eth-mainnet",
-        "isTestnet": false,
-        "networkId": 1,
-        "chainId": 1,
-        "shortName": "mainnet",
-        "uppercaseName": "ETH_MAINNET",
-        "humanReadableName": "Ethereum",
-        "nativeTokenSymbol": "ETH",
-        "contractsV1": {
-            "resolver": "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53",
-            "host": "0x4E583d9390082B65Bef884b629DFA426114CED6d",
-            "governance": "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653",
-            "cfaV1": "0x2844c1BBdA121E9E43105630b9C8310e5c72744b",
-            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
-            "idaV1": "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d",
-            "superTokenFactory": "0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1",
-            "superfluidLoader": "0x9775EEBdfF8AE845e7Ad3d1D04B85e6c6d284aCB",
-            "toga": "0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc",
-            "batchLiquidator": "0x24849C01F16DE01061D2eEA1678082d44D9a7F80"
-        },
-        "startBlockV1": 15870000,
-        "logsQueryRange": 10000,
-        "explorer": "https://etherscan.io",
-        "subgraphV1": {
-            "name": "protocol-v1-eth-mainnet",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-eth-mainnet"
-        },
-        "publicRPCs": [
-            "https://eth-rpc.gateway.pokt.network"
-        ],
-        "coinGeckoId": "ethereum"
-    },
-    {
         "name": "xdai-mainnet",
         "isTestnet": false,
         "networkId": 100,
@@ -196,7 +163,9 @@ export default
             "superTokenFactory": "0x23410e2659380784498509698ed70E414D384880",
             "superfluidLoader": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
             "toga": "0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22",
-            "batchLiquidator": "0xf4b9bBFc34dc8cc392bC97c76bc60D8350D83172"
+            "batchLiquidator": "0xf4b9bBFc34dc8cc392bC97c76bc60D8350D83172",
+            "flowScheduler": "0x9cC7fc484fF588926149577e9330fA5b2cA74336",
+            "vestingScheduler": "0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D"
         },
         "startBlockV1": 14820000,
         "logsQueryRange": 20000,
@@ -230,7 +199,9 @@ export default
             "superTokenFactory": "0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34",
             "superfluidLoader": "0x15F0Ca26781C3852f8166eD2ebce5D18265cceb7",
             "toga": "0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7",
-            "batchLiquidator": "0xAB4075f621100563f4551C0Ca50944809b03E948"
+            "batchLiquidator": "0xAB4075f621100563f4551C0Ca50944809b03E948",
+            "flowScheduler": "0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D",
+            "vestingScheduler": "0xcFE6382B33F2AdaFbE46e6A26A88E0182ae32b0c"
         },
         "startBlockV1": 10000000,
         "logsQueryRange": 10000,
@@ -264,7 +235,9 @@ export default
             "superTokenFactory": "0x8276469A443D5C6B7146BED45e2abCaD3B6adad9",
             "superfluidLoader": "0x8E310ce29Ab7Fa2878944A65BB0eaF97B1853d40",
             "toga": "0xA3c8502187fD7a7118eAD59dc811281448946C8f",
-            "batchLiquidator": "0xEe1bd2C743BF40B1206B090Fa9aB27A0C57d7B90"
+            "batchLiquidator": "0xEe1bd2C743BF40B1206B090Fa9aB27A0C57d7B90",
+            "flowScheduler": "0x55c8fc400833eEa791087cF343Ff2409A39DeBcC",
+            "vestingScheduler": "0x65377d4dfE9c01639A41952B5083D58964782892"
         },
         "startBlockV1": 4300000,
         "logsQueryRange": 50000,
@@ -273,7 +246,10 @@ export default
             "name": "protocol-v1-optimism-mainnet",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-mainnet"
         },
-        "publicRPCs": [],
+        "publicRPCs": [
+            "https://mainnet.optimism.io",
+            "https://rpc.ankr.com/optimism"
+        ],
         "coinGeckoId": "optimistic-ethereum"
     },
     {
@@ -295,7 +271,9 @@ export default
             "superTokenFactory": "0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6",
             "superfluidLoader": "0xB99cA401e10D277345BcFb281AC148a2e16Db466",
             "toga": "0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF",
-            "batchLiquidator": "0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09"
+            "batchLiquidator": "0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09",
+            "flowScheduler": "0x3fA8B653F9abf91428800C0ba0F8D145a71F97A1",
+            "vestingScheduler": "0x55c8fc400833eEa791087cF343Ff2409A39DeBcC"
         },
         "startBlockV1": 7600000,
         "logsQueryRange": 50000,
@@ -304,7 +282,10 @@ export default
             "name": "protocol-v1-arbitrum-one",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-arbitrum-one"
         },
-        "publicRPCs": [],
+        "publicRPCs": [
+            "https://arb1.arbitrum.io/rpc",
+            "https://arbitrum.blockpi.network/v1/rpc/public"
+        ],
         "coinGeckoId": "arbitrum-one"
     },
     {
@@ -326,7 +307,9 @@ export default
             "superTokenFactory": "0x464AADdBB2B80f3Cb666522EB7381bE610F638b4",
             "superfluidLoader": "0x2601E69a2D16C8Ccc8aEe8cE9F59d24a59986B9E",
             "toga": "0x3D9A67D5ec1E72CEcA8157e028855056786b6159",
-            "batchLiquidator": "0xcFE6382B33F2AdaFbE46e6A26A88E0182ae32b0c"
+            "batchLiquidator": "0xcFE6382B33F2AdaFbE46e6A26A88E0182ae32b0c",
+            "flowScheduler": "0xF7AfF590E9DE493D7ACb421Fca7f1E35C1ad4Ce5",
+            "vestingScheduler": "0x3fA8B653F9abf91428800C0ba0F8D145a71F97A1"
         },
         "startBlockV1": 14700000,
         "logsQueryRange": 50000,
@@ -335,7 +318,10 @@ export default
             "name": "protocol-v1-avalanche-c",
             "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-avalanche-c"
         },
-        "publicRPCs": [],
+        "publicRPCs": [
+            "https://api.avax.network/ext/bc/C/rpc",
+            "https://rpc.ankr.com/avalanche"
+        ],
         "coinGeckoId": "avalanche"
     },
     {
@@ -357,7 +343,9 @@ export default
             "superTokenFactory": "0x8bde47397301F0Cd31b9000032fD517a39c946Eb",
             "superfluidLoader": "0x3C26e5bEbc68EaAf4efcd88F8E5A6Aeb77b65579",
             "toga": "0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF",
-            "batchLiquidator": "0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3"
+            "batchLiquidator": "0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3",
+            "flowScheduler": "0x2f9e2A2A59405682d4F86779275CF5525AD7eC2B",
+            "vestingScheduler": "0x9B91c27f78376383003C6A12Ad12B341d016C5b9"
         },
         "startBlockV1": 18800000,
         "logsQueryRange": 5000,
@@ -371,5 +359,73 @@ export default
             "https://bsc-dataseed.binance.org"
         ],
         "coinGeckoId": "binance-smart-chain"
+    },
+    {
+        "name": "eth-mainnet",
+        "isTestnet": false,
+        "networkId": 1,
+        "chainId": 1,
+        "shortName": "mainnet",
+        "uppercaseName": "ETH_MAINNET",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53",
+            "host": "0x4E583d9390082B65Bef884b629DFA426114CED6d",
+            "governance": "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653",
+            "cfaV1": "0x2844c1BBdA121E9E43105630b9C8310e5c72744b",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
+            "idaV1": "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d",
+            "superTokenFactory": "0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1",
+            "superfluidLoader": "0x9775EEBdfF8AE845e7Ad3d1D04B85e6c6d284aCB",
+            "toga": "0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc",
+            "batchLiquidator": "0x24849C01F16DE01061D2eEA1678082d44D9a7F80",
+            "flowScheduler": "0xAA0cD305eD020137E302CeCede7b18c0A05aCCDA",
+            "vestingScheduler": "0x39D5cBBa9adEBc25085a3918d36D5325546C001B"
+        },
+        "startBlockV1": 15870000,
+        "logsQueryRange": 10000,
+        "explorer": "https://etherscan.io",
+        "subgraphV1": {
+            "name": "protocol-v1-eth-mainnet",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-eth-mainnet"
+        },
+        "publicRPCs": [
+            "https://cloudflare-eth.com",
+            "https://eth-rpc.gateway.pokt.network"
+        ],
+        "coinGeckoId": "ethereum"
+    },
+    {
+        "name": "celo-mainnet",
+        "isTestnet": false,
+        "networkId": 42220,
+        "chainId": 42220,
+        "shortName": "celo",
+        "uppercaseName": "CELO_MAINNET",
+        "nativeTokenSymbol": "CELO",
+        "contractsV1": {
+            "resolver": "0x05eE721BD4D803d6d477Aa7607395452B65373FF",
+            "host": "0xA4Ff07cF81C02CFD356184879D953970cA957585",
+            "governance": "0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D",
+            "cfaV1": "0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
+            "idaV1": "0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA",
+            "superTokenFactory": "0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9",
+            "superfluidLoader": "0xAd6e6849d8eEa62AF9271808afb726610fB451a6",
+            "toga": "0x9bCa3a623e7b2e248510d88B2894F54898d88F91",
+            "batchLiquidator": "0x24849C01F16DE01061D2eEA1678082d44D9a7F80"
+        },
+        "startBlockV1": 16393000,
+        "logsQueryRange": 20000,
+        "explorer": "https://celoscan.io",
+        "subgraphV1": {
+            "name": "protocol-v1-celo-mainnet",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-celo-mainnet"
+        },
+        "publicRPCs": [
+            "https://forno.celo.org",
+            "https://rpc.ankr.com/celo"
+        ],
+        "coinGeckoId": "celo"
     }
 ]
