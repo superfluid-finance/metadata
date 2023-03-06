@@ -210,7 +210,7 @@ export default
             "flowScheduler": "0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D",
             "vestingScheduler": "0xcFE6382B33F2AdaFbE46e6A26A88E0182ae32b0c"
         },
-        "startBlockV1": 10000000,
+        "startBlockV1": 11650500,
         "logsQueryRange": 10000,
         "explorer": "https://polygonscan.com",
         "subgraphV1": {
