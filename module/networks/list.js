@@ -243,6 +243,7 @@ export default
             "superfluidLoader": "0x8E310ce29Ab7Fa2878944A65BB0eaF97B1853d40",
             "toga": "0xA3c8502187fD7a7118eAD59dc811281448946C8f",
             "batchLiquidator": "0xEe1bd2C743BF40B1206B090Fa9aB27A0C57d7B90",
+            "batchLiquidatorV2": "0xbF7BCcE8D60A9C3F6bFaEc9346Aa85B9f781a4e9",
             "flowScheduler": "0x55c8fc400833eEa791087cF343Ff2409A39DeBcC",
             "vestingScheduler": "0x65377d4dfE9c01639A41952B5083D58964782892"
         },
