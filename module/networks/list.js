@@ -18,7 +18,9 @@ export default
             "idaV1": "0xfDdcdac21D64B639546f3Ce2868C7EF06036990c",
             "superTokenFactory": "0x94f26B4c8AD12B18c12f38E878618f7664bdcCE2",
             "superfluidLoader": "0x74d860243Ff08A243d5485899f343117EbDa6eA8",
-            "toga": "0xa54FC15FC75693447d70a57262F37a70B614721b"
+            "toga": "0xa54FC15FC75693447d70a57262F37a70B614721b",
+            "flowScheduler": "0xf428308b426D7cD7Ad8eBE549d750f31C8E060Ca",
+            "vestingScheduler": "0xF9240F930d847F70ad900aBEE8949F25649Bf24a"
         },
         "startBlockV1": 3550000,
         "logsQueryRange": 10000,
@@ -53,7 +55,7 @@ export default
             "toga": "0x38DD80876DBA048d0050D28828522c313967D073",
             "superSpreader": "0x74CDF863b00789c29734F8dFd9F83423Bc55E4cE",
             "flowScheduler": "0x59A3Ba9d34c387FB70b4f4e4Fbc9eD7519194139",
-            "vestingScheduler": "0xc91c49a534a9451b0218FE837b20F4Aa17f318cc"
+            "vestingScheduler": "0x3962EE56c9f7176215D149938BA685F91aBB633B"
         },
         "startBlockV1": 8100000,
         "logsQueryRange": 10000,
