@@ -109,8 +109,7 @@ import("@superfluid-finance/metadata").then(module => sfMeta = module)
   explorer: 'https://optimistic.etherscan.io',
   subgraphV1: {
     name: 'protocol-v1-optimism-mainnet',
-    hostedEndpoint: 'https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-mainnet',
-    satsumaEndpoint: null
+    hostedEndpoint: 'https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-mainnet'
   }
 }
 ```
