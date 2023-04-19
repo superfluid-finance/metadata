@@ -151,6 +151,37 @@ module.exports =
         }
     },
     {
+        "name": "eth-sepolia",
+        "isTestnet": true,
+        "networkId": 11155111,
+        "chainId": 11155111,
+        "shortName": "sepolia",
+        "uppercaseName": "ETH_SEPOLIA",
+        "humanReadableName": "Sepolia",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x6813edE4E78ecb830d380d0F7F684c12aAc95F02",
+            "host": "0x109412E3C84f0539b43d39dB691B08c90f58dC7c",
+            "governance": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
+            "cfaV1": "0x6836F23d6171D74Ef62FcF776655aBcD2bcd62Ef",
+            "cfaV1Forwarder": "0x9Fc8066443392B3b626b2B4940146627c49d9f51",
+            "idaV1": "0x9358C7dCCc6B8CA6F526311e8ac266F8C861B7ea",
+            "superTokenFactory": "0x53F4f44C813Dc380182d0b2b67fe5832A12B97f8",
+            "superfluidLoader": "0x554c06487bEc8c890A0345eb05a5292C1b1017Bd"
+        },
+        "startBlockV1": 3322400,
+        "logsQueryRange": 10000,
+        "explorer": "https://sepolia.etherscan.io",
+        "subgraphV1": {
+            "name": "protocol-v1-eth-sepolia",
+            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-eth-sepolia"
+        },
+        "publicRPCs": [
+            "https://rpc.sepolia.org",
+            "https://ethereum-sepolia.blockpi.network/v1/rpc/public"
+        ]
+    },
+    {
         "name": "xdai-mainnet",
         "isTestnet": false,
         "networkId": 100,
