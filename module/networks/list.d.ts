@@ -27,6 +27,8 @@ export interface NetworkMetaData {
     readonly logsQueryRange: number;
     readonly explorer: string;
     readonly subgraphV1: SubgraphData;
+    readonly publicRPCs?: string[];
+    readonly coinGeckoId?: string;
 }
 declare const _default: NetworkMetaData[];
 export default _default;
