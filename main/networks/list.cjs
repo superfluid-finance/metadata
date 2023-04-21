@@ -164,7 +164,7 @@ module.exports =
             "host": "0x109412E3C84f0539b43d39dB691B08c90f58dC7c",
             "governance": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
             "cfaV1": "0x6836F23d6171D74Ef62FcF776655aBcD2bcd62Ef",
-            "cfaV1Forwarder": "0x9Fc8066443392B3b626b2B4940146627c49d9f51",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
             "idaV1": "0x9358C7dCCc6B8CA6F526311e8ac266F8C861B7ea",
             "superTokenFactory": "0x53F4f44C813Dc380182d0b2b67fe5832A12B97f8",
             "superfluidLoader": "0x554c06487bEc8c890A0345eb05a5292C1b1017Bd"
