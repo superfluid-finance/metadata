@@ -174,7 +174,7 @@ module.exports =
         "explorer": "https://sepolia.etherscan.io",
         "subgraphV1": {
             "name": "protocol-v1-eth-sepolia",
-            "hostedEndpoint": "https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-eth-sepolia"
+            "satsumaEndpoint": "https://subgraph.satsuma-prod.com/c5br3jaVlJI6/superfluid/eth-sepolia/api"
         },
         "publicRPCs": [
             "https://rpc.sepolia.org",
