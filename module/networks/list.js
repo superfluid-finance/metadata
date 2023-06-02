@@ -182,6 +182,36 @@ export default
         ]
     },
     {
+        "name": "base-goerli",
+        "isTestnet": true,
+        "networkId": 84531,
+        "chainId": 84531,
+        "shortName": "bgoerli",
+        "uppercaseName": "BASE_GOERLI",
+        "humanReadableName": "Base Goerli",
+        "nativeTokenSymbol": "ETH",
+        "contractsV1": {
+            "resolver": "0x598D5dB9902cbBd6e8Ee9CDb3A231377cdA2f018",
+            "host": "0x507c3a7C6Ccc253884A2e3a3ee2A211cC7E796a6",
+            "governance": "0xbe20Bac0DCF6f01834F51CCDab2dD72707C6e9b6",
+            "cfaV1": "0x4C476F2Fb27272680F2f6f2592E94d9e704691bC",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
+            "idaV1": "0xaa4FCc799B8857FA87b2945Dc6572D5d76b35485",
+            "superTokenFactory": "0x1015BE31D7711D95d2c3444708FB53cC851ba856",
+            "superfluidLoader": "0x15F0Ca26781C3852f8166eD2ebce5D18265cceb7"
+        },
+        "startBlockV1": 5249500,
+        "logsQueryRange": 10000,
+        "explorer": "https://goerli.basescan.org/",
+        "subgraphV1": {
+            "name": "protocol-v1-base-goerli"
+        },
+        "publicRPCs": [
+            "https://goerli.base.org",
+            "https://base-goerli.public.blastapi.io"
+        ]
+    },
+    {
         "name": "xdai-mainnet",
         "isTestnet": false,
         "networkId": 100,
