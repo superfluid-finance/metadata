@@ -85,6 +85,7 @@ export default
             "cfaV1": "0xff48668fa670A85e55A7a822b352d5ccF3E7b18C",
             "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
             "idaV1": "0x96215257F2FcbB00135578f766c0449d239bd92F",
+            "gdaV1": "0xe87F46A15C410F151309Bf7516e130087Fc6a5E5",
             "superTokenFactory": "0xfafe31cf998Df4e5D8310B03EBa8fb5bF327Eaf5",
             "superfluidLoader": "0x5Bb5908dcCC9Bb0fC39a78CfDf9e47B4C08E9521"
         },
@@ -139,6 +140,7 @@ export default
             "cfaV1": "0x16843ac25Ccc58Aa7960ba05f61cBB17b36b130A",
             "cfaV1Forwarder": "0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D",
             "idaV1": "0xA44dEC7A0Dde1a56AeDe4143C1ef89cf5d956782",
+            "gdaV1": "0x48ac69a0f8bc90d5b3b81f6162ec87c864ebd052",
             "superTokenFactory": "0x1C92042426B6bAAe497bEf461B6d8342D03aEc92",
             "superfluidLoader": "0x96C3C2d23d143301cF363a02cB7fe3596d2834d7"
         },
