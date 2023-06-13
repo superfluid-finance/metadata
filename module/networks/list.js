@@ -9,6 +9,7 @@ export default
         "uppercaseName": "ETH_GOERLI",
         "humanReadableName": "Goerli",
         "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "0x5943f705abb6834cad767e6e4bb258bc48d9c947",
         "contractsV1": {
             "resolver": "0x3710AB3fDE2B61736B8BB0CE845D6c61F667a78E",
             "host": "0x22ff293e14F1EC3A09B137e9e06084AFd63adDF9",
@@ -43,6 +44,7 @@ export default
         "uppercaseName": "POLYGON_MUMBAI",
         "humanReadableName": "Polygon Mumbai",
         "nativeTokenSymbol": "MATIC",
+        "nativeTokenWrapper": "0x96B82B65ACF7072eFEb00502F45757F254c2a0D4",
         "contractsV1": {
             "resolver": "0x8C54C83FbDe3C59e59dd6E324531FB93d4F504d3",
             "host": "0xEB796bdb90fFA0f28255275e16936D25d3418603",
@@ -78,6 +80,7 @@ export default
         "uppercaseName": "OPTIMISM_GOERLI",
         "humanReadableName": "Optimism Goerli",
         "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "0xE01F8743677Da897F4e7De9073b57Bf034FC2433",
         "contractsV1": {
             "resolver": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
             "host": "0xE40983C2476032A0915600b9472B3141aA5B5Ba9",
@@ -106,6 +109,7 @@ export default
         "uppercaseName": "ARBITRUM_GOERLI",
         "humanReadableName": "Arbitrum Goerli",
         "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "0xE01F8743677Da897F4e7De9073b57Bf034FC2433",
         "contractsV1": {
             "resolver": "0x21d4E9fbB9DB742E6ef4f29d189a7C18B0b59136",
             "host": "0xE40983C2476032A0915600b9472B3141aA5B5Ba9",
@@ -133,6 +137,7 @@ export default
         "uppercaseName": "AVALANCHE_FUJI",
         "humanReadableName": "Avalanche Fuji",
         "nativeTokenSymbol": "AVAX",
+        "nativeTokenWrapper": "0xfFD0f6d73ee52c68BF1b01C8AfA2529C97ca17F3",
         "contractsV1": {
             "resolver": "0xf0ec6A8842Ca72Aec8A4D4573E731242389e18A8",
             "host": "0x85Fe79b998509B77BF10A8BD4001D58475D29386",
@@ -161,6 +166,7 @@ export default
         "uppercaseName": "ETH_SEPOLIA",
         "humanReadableName": "Sepolia",
         "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "0x30a6933Ca9230361972E413a15dC8114c952414e",
         "contractsV1": {
             "resolver": "0x6813edE4E78ecb830d380d0F7F684c12aAc95F02",
             "host": "0x109412E3C84f0539b43d39dB691B08c90f58dC7c",
@@ -192,6 +198,7 @@ export default
         "uppercaseName": "BASE_GOERLI",
         "humanReadableName": "Base Goerli",
         "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "0x7fFCE315B2014546bA461d54eDed7AAc70DF4f53",
         "contractsV1": {
             "resolver": "0x598D5dB9902cbBd6e8Ee9CDb3A231377cdA2f018",
             "host": "0x507c3a7C6Ccc253884A2e3a3ee2A211cC7E796a6",
@@ -222,6 +229,7 @@ export default
         "uppercaseName": "XDAI_MAINNET",
         "humanReadableName": "Gnosis Chain",
         "nativeTokenSymbol": "xDAI",
+        "nativeTokenWrapper": "0x59988e47A3503AaFaA0368b9deF095c818Fdca01",
         "contractsV1": {
             "resolver": "0xD2009765189164b495c110D61e4D301729079911",
             "host": "0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7",
@@ -262,6 +270,7 @@ export default
         "uppercaseName": "POLYGON_MAINNET",
         "humanReadableName": "Polygon",
         "nativeTokenSymbol": "MATIC",
+        "nativeTokenWrapper": "0x3aD736904E9e65189c3000c7DD2c8AC8bB7cD4e3",
         "contractsV1": {
             "resolver": "0xE0cc76334405EE8b39213E620587d815967af39C",
             "host": "0x3E14dC1b13c488a8d5D310918780c983bD5982E7",
@@ -299,6 +308,7 @@ export default
         "uppercaseName": "OPTIMISM_MAINNET",
         "humanReadableName": "Optimism",
         "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "0x4ac8bD1bDaE47beeF2D1c6Aa62229509b962Aa0d",
         "contractsV1": {
             "resolver": "0x743B5f46BC86caF41bE4956d9275721E0531B186",
             "host": "0x567c4B141ED61923967cA25Ef4906C8781069a10",
@@ -335,6 +345,7 @@ export default
         "uppercaseName": "ARBITRUM_ONE",
         "humanReadableName": "Arbitrum One",
         "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3",
         "contractsV1": {
             "resolver": "0x609b9d9d6Ee9C3200745A79B9d3398DBd63d509F",
             "host": "0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192",
@@ -371,6 +382,7 @@ export default
         "uppercaseName": "AVALANCHE_C",
         "humanReadableName": "Avalanche C",
         "nativeTokenSymbol": "AVAX",
+        "nativeTokenWrapper": "0xBE916845D8678b5d2F7aD79525A62D7c08ABba7e",
         "contractsV1": {
             "resolver": "0x24a3F04F70B7f07B9673EadD3e146391BcfEa5c1",
             "host": "0x60377C7016E4cdB03C87EF474896C11cB560752C",
@@ -407,6 +419,7 @@ export default
         "uppercaseName": "BSC_MAINNET",
         "humanReadableName": "BNB Smart Chain",
         "nativeTokenSymbol": "BNB",
+        "nativeTokenWrapper": "0x529A4116F160c833c61311569D6B33dFF41fD657",
         "contractsV1": {
             "resolver": "0x69604aA4e9e8BF44A73C680997205Edb03A92E41",
             "host": "0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E",
@@ -443,6 +456,7 @@ export default
         "uppercaseName": "ETH_MAINNET",
         "humanReadableName": "Ethereum",
         "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "0xC22BeA0Be9872d8B7B3933CEc70Ece4D53A900da",
         "contractsV1": {
             "resolver": "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53",
             "host": "0x4E583d9390082B65Bef884b629DFA426114CED6d",
@@ -480,6 +494,7 @@ export default
         "uppercaseName": "CELO_MAINNET",
         "humanReadableName": "Celo",
         "nativeTokenSymbol": "CELO",
+        "nativeTokenWrapper": "0x671425Ae1f272Bc6F79beC3ed5C4b00e9c628240",
         "contractsV1": {
             "resolver": "0x05eE721BD4D803d6d477Aa7607395452B65373FF",
             "host": "0xA4Ff07cF81C02CFD356184879D953970cA957585",
