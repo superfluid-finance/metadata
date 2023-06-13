@@ -13,7 +13,7 @@ If you are adding a new property, please also modify the .d.ts files in the modu
 List of EVM networks with the Superfluid protocol deployed.
 Example uses
 
-### in an HTML page
+### Use in an HTML page
 
 This example uses the jsDelivr CDN in order to always reference the latest version of the networks list.  
 You can of course also self-host a copy or use another service, anything signalling the right mime type and with a compatible CORS policy should work.
@@ -25,7 +25,7 @@ You can of course also self-host a copy or use another service, anything signall
   const network = networks.getNetworkByChainId(networkId);
 ```
 
-### in a nodejs project using ES modules
+### Use in a nodejs project using ES modules
 
 Nodejs has stable support for ES modules since version 14.  
 In order to switch a project to using ES modules by default, the package.json needs to contain a field
@@ -42,7 +42,7 @@ import sfMeta from "@superfluid-finance/metadata";
 const network = sfMeta.getNetworkByName("eth-goerli");
 ```
 
-### in a nodejs project using CommonJS (legacy)
+### Use in a nodejs project using CommonJS (legacy)
 
 Nodejs projects still using CommonJS (if you're unsure, check [the docs](https://nodejs.org/api/packages.html#determining-module-system)), can use ES modules using the syntax of [dynamic imports](https://nodejs.org/api/esm.html#import-expressions):
 ```js
@@ -65,7 +65,7 @@ const sfMetaPromise = import("@superfluid-finance/metadata");
 }
 ```
 
-### in a node REPL:
+### Use in a node REPL:
 
 The repl uses CommonJS too, thus usage looks like this:
 
@@ -112,4 +112,26 @@ import("@superfluid-finance/metadata").then(module => sfMeta = module)
     hostedEndpoint: 'https://api.thegraph.com/subgraphs/name/superfluid-finance/protocol-v1-optimism-mainnet'
   }
 }
+```
+
+### Use in a bash script
+
+With the help of [jq](https://jqlang.github.io/jq/), it's also possible to parse metadata from within a bash script.
+Here's an example:
+
+```sh
+#!/bin/bash
+
+# exit on error or undefined var
+set -eu
+
+metadata=$(curl -f -s "https://raw.githubusercontent.com/superfluid-finance/metadata/master/networks.json")
+testnets=$(echo "$metadata" | jq -r '.[] | select(.isTestnet == false).name')
+
+for network in $testnets; do
+        host=$(echo "$metadata" | jq -r '.[] | select(.name == "'$network'").contractsV1.host')
+        native_token_wrapper=$(echo "$metadata" | jq -r '.[] | select(.name == "'$network'").nativeTokenWrapper')
+
+        echo "$network | host address: $host, native token wrapper address: $native_token_wrapper"
+done
 ```
