@@ -17,6 +17,7 @@ module.exports =
             "cfaV1": "0xEd6BcbF6907D4feEEe8a8875543249bEa9D308E8",
             "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
             "idaV1": "0xfDdcdac21D64B639546f3Ce2868C7EF06036990c",
+            "gdaV1": "0x3dB8Abd8B696F6c4150212A85961f954825Dd4B9",
             "superTokenFactory": "0x94f26B4c8AD12B18c12f38E878618f7664bdcCE2",
             "superfluidLoader": "0x74d860243Ff08A243d5485899f343117EbDa6eA8",
             "toga": "0xa54FC15FC75693447d70a57262F37a70B614721b",
@@ -52,6 +53,7 @@ module.exports =
             "cfaV1": "0x49e565Ed1bdc17F3d220f72DF0857C26FA83F873",
             "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
             "idaV1": "0x804348D4960a61f2d5F9ce9103027A3E849E09b8",
+            "gdaV1": "0x63ab406B6eF6c8be732c1edbd15464de16a8F46D",
             "superTokenFactory": "0xB798553db6EB3D3C56912378409370145E97324B",
             "superfluidLoader": "0x0d56ED56b63382B0FC964490feB9AE438B6B4b79",
             "toga": "0x38DD80876DBA048d0050D28828522c313967D073",
@@ -117,6 +119,7 @@ module.exports =
             "cfaV1": "0xff48668fa670A85e55A7a822b352d5ccF3E7b18C",
             "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
             "idaV1": "0x96215257F2FcbB00135578f766c0449d239bd92F",
+            "gdaV1": "0xe87F46A15C410F151309Bf7516e130087Fc6a5E5",
             "superTokenFactory": "0xfafe31cf998Df4e5D8310B03EBa8fb5bF327Eaf5",
             "superfluidLoader": "0x5Bb5908dcCC9Bb0fC39a78CfDf9e47B4C08E9521"
         },
