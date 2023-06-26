@@ -221,6 +221,36 @@ export default
         ]
     },
     {
+        "name": "zkevm-testnet",
+        "isTestnet": true,
+        "networkId": 1442,
+        "chainId": 1442,
+        "shortName": "zktest",
+        "uppercaseName": "ZKEVM_TESTNET",
+        "humanReadableName": "zkEVM Testnet",
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenWrapper": "",
+        "contractsV1": {
+            "resolver": "0x642332562BC60a4Bd9681E7bb1588f7456A497aC",
+            "host": "0xe64f81d5dDdA1c7172e5C6d964E8ef1BD82D8704",
+            "governance": "0xF21019b8688e7730Ca6D9002569eCBaF8d1A3083",
+            "cfaV1": "0x1EAa5ceA064aab2692AF257FB31f5291fdA3Cdee",
+            "cfaV1Forwarder": "0xcfA132E353cB4E398080B9700609bb008eceB125",
+            "idaV1": "0xBf22019a4A4430bA67D3B0c8B4d5Edc48F913301",
+            "superTokenFactory": "0xC95346B7394009ccEfaA62Eca28797804B2bCF1C",
+            "superfluidLoader": "0xda6db863cb2EE39b196edB8159c38A1ed5c55344"
+        },
+        "startBlockV1": 726000,
+        "logsQueryRange": 20000,
+        "explorer": "https://testnet-zkevm.polygonscan.org/",
+        "subgraphV1": {
+            "name": "protocol-v1-zkevm-testnet"
+        },
+        "publicRPCs": [
+            "https://rpc.public.zkevm-test.net"
+        ]
+    },
+    {
         "name": "xdai-mainnet",
         "isTestnet": false,
         "networkId": 100,
