@@ -229,7 +229,7 @@ module.exports =
         "uppercaseName": "ZKEVM_TESTNET",
         "humanReadableName": "zkEVM Testnet",
         "nativeTokenSymbol": "ETH",
-        "nativeTokenWrapper": "",
+        "nativeTokenWrapper": "0x6345Aa6cec42a85160CF436810F97661e28c1876",
         "contractsV1": {
             "resolver": "0x642332562BC60a4Bd9681E7bb1588f7456A497aC",
             "host": "0xe64f81d5dDdA1c7172e5C6d964E8ef1BD82D8704",
