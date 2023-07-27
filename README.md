@@ -1,3 +1,9 @@
+| :warning: WARNING          |
+|:---------------------------|
+| **YOU SHOULD STOP USING THIS REPOSITORY**. The package has been moved to the [monorepo](https://github.com/superfluid-finance/protocol-monorepo/tree/dev/packages/metadata), and the packages are being automatically published to [npmjs](https://www.npmjs.com/package/@superfluid-finance/metadata). |
+
+
+
 # Superfluid Metadata
 
 Contains metadata around the Superfluid framework.  
